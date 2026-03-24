@@ -16,7 +16,7 @@ This repository contains my daily practice of Data Structures and Algorithms.
 
 ## Platform
 - LeetCode
-- GeeksforGeeks
+
 
 ---
 Consistent practice 💪
