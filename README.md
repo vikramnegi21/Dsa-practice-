@@ -1,8 +1,11 @@
-# DSA Practice 🚀
+#🚀 DSA Practice
 
 This repository contains my daily practice of Data Structures and Algorithms.
 
-## Topics Covered
+---
+
+📚 Topics Covered
+
 - Arrays
 - Linked List
 - Stack & Queue
@@ -11,12 +14,29 @@ This repository contains my daily practice of Data Structures and Algorithms.
 - Trees
 - Graphs
 
-## Language
+---
+
+💻 Language
+
 - C++
 
-## Platform
+---
+
+🌐 Platform
+
 - LeetCode
 
+---
+
+📅 Daily Progress
+
+Date| Problem| Difficulty
+24 Mar| Rearrange Array by Sign| Medium
 
 ---
-Consistent practice 💪
+
+🎯 Goal
+
+Solve 300+ DSA problems before placements
+
+🔥 Consistency is the key 💪
