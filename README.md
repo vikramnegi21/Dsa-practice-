@@ -31,40 +31,9 @@ Date| Problem| Platform| Difficulty
 27 Mar| Problem (800 Rating)| Codeforces| -
 
 ---
+## 📂 Repository Structure
+DSA-Journey/ │ ├── LeetCode/ │   ├── Easy/ │   │   ├── Merge_Two_Sorted_Lists.cpp │   │   ├── Palindrome_Linked_List.cpp │   │   ├── Remove_Duplicates_from_Sorted_List.cpp │ │   ├── Medium/ │   │   ├── Rearrange_Array_by_Sign.cpp │   │   ├── Can_Partition_Grid.cpp │   │   ├── Remove_Nth_Node_From_End.cpp │   │   ├── Matrix_Similarity_After_Cyclic_Shifts.cpp │ ├── Codeforces/ │   ├── 800_rating/ │   │   ├── Problem_1.cpp │ └── README.md
 
-📂 Repository Structure
-
-DSA-Journey/
-│
-├── LeetCode/
-│   ├── Easy/
-│   │   ├── Merge_Two_Sorted_Lists.cpp
-│   │   ├── Palindrome_Linked_List.cpp
-│   │   ├── Remove_Duplicates_from_Sorted_List.cpp
-│   │
-│   ├── Medium/
-│   │   ├── Rearrange_Array_by_Sign.cpp
-│   │   ├── Can_Partition_Grid.cpp
-│   │   ├── Remove_Nth_Node_From_End.cpp
-│   │   ├── Matrix_Similarity_After_Cyclic_Shifts.cpp
-│
-├── Codeforces/
-│   ├── 800_rating/
-│   │   ├── Problem_1.cpp
-│
-├── Topics/
-│   ├── Arrays/
-│   │   ├── notes.md
-│   ├── Strings/
-│   │   ├── notes.md
-│   ├── Hashing/
-│   │   ├── notes.md
-│   ├── Recursion/
-│   │   ├── notes.md
-│   ├── LinkedList/
-│   │   ├── notes.md
-│
-└── README.md
 
 ---
 
