@@ -16,26 +16,46 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 ---
 
-📅 Progress Tracker
+## 📅 Progress Tracker  
 
-March 2026
+### March 2026  
 
-Date| Problem| Platform| Difficulty
-24 Mar| Rearrange Array by Sign| LeetCode| Medium
-25 Mar| Can Partition Grid| LeetCode| Medium
-25 Mar| Merge Two Sorted Lists| LeetCode| Easy
-26 Mar| Palindrome Linked List| LeetCode| Easy
-26 Mar| Remove Nth Node From End of List| LeetCode| Medium
-26 Mar| Remove Duplicates from Sorted List| LeetCode| Easy
-27 Mar| Matrix Similarity After Cyclic Shifts| LeetCode| Easy
-27 Mar| Problem (800 Rating)| Codeforces| -
-
----
-## 📂 Repository Structure
-DSA-Journey/ │ ├── LeetCode/ │   ├── Easy/ │   │   ├── Merge_Two_Sorted_Lists.cpp │   │   ├── Palindrome_Linked_List.cpp │   │   ├── Remove_Duplicates_from_Sorted_List.cpp │ │   ├── Medium/ │   │   ├── Rearrange_Array_by_Sign.cpp │   │   ├── Can_Partition_Grid.cpp │   │   ├── Remove_Nth_Node_From_End.cpp │   │   ├── Matrix_Similarity_After_Cyclic_Shifts.cpp │ ├── Codeforces/ │   ├── 800_rating/ │   │   ├── Problem_1.cpp │ └── README.md
+| Date | Problem | Platform | Difficulty |
+|------|--------|----------|------------|
+| 24 Mar | Rearrange Array by Sign | LeetCode | Medium |
+| 25 Mar | Can Partition Grid | LeetCode | Medium |
+| 25 Mar | Merge Two Sorted Lists | LeetCode | Easy |
+| 26 Mar | Palindrome Linked List | LeetCode | Easy |
+| 26 Mar | Remove Nth Node From End of List | LeetCode | Medium |
+| 26 Mar | Remove Duplicates from Sorted List | LeetCode | Easy |
+| 27 Mar | Matrix Similarity After Cyclic Shifts | LeetCode | Easy |
+| 27 Mar | Problem (800 Rating) | Codeforces | - |
 
 
 ---
+## 📂 Repository Structure  
+
+```
+DSA-Journey/
+│
+├── LeetCode/
+│   ├── Easy/
+│   │   ├── Merge_Two_Sorted_Lists.cpp
+│   │   ├── Palindrome_Linked_List.cpp
+│   │   ├── Remove_Duplicates_from_Sorted_List.cpp
+│
+│   ├── Medium/
+│   │   ├── Rearrange_Array_by_Sign.cpp
+│   │   ├── Can_Partition_Grid.cpp
+│   │   ├── Remove_Nth_Node_From_End.cpp
+│   │   ├── Matrix_Similarity_After_Cyclic_Shifts.cpp
+│
+├── Codeforces/
+│   ├── 800_rating/
+│   │   ├── Problem_1.cpp
+│
+└── README.md
+```
 
 📌 Topics Covered
 
