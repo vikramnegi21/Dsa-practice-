@@ -85,8 +85,7 @@ DSA-Journey/
 
 📊 GitHub Stats
 
-"Stats" (https://github-readme-stats.vercel.app/api?username=__vikram21&show_icons=true)
-
+![Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=default&hide_border=true)
 ---
 
 ⚡ Notes
