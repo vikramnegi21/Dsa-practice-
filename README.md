@@ -85,7 +85,8 @@ DSA-Journey/
 
 ## 📊 GitHub Stats  
 
-![Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=default)
+
 ⚡ Notes
 
 - Each problem includes approach and implementation
