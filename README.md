@@ -19,47 +19,41 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 ---
 
-📅 Progress Tracker
+| Date   | Problem                                   | Platform   | Difficulty |
+|--------|-------------------------------------------|------------|------------|
+| 24 Mar | Rearrange Array by Sign                   | LeetCode   | Medium     |
+| 25 Mar | Can Partition Grid                        | LeetCode   | Medium     |
+| 25 Mar | Merge Two Sorted Lists                    | LeetCode   | Easy       |
+| 26 Mar | Palindrome Linked List                    | LeetCode   | Easy       |
+| 26 Mar | Remove Nth Node From End of List          | LeetCode   | Medium     |
+| 26 Mar | Remove Duplicates from Sorted List        | LeetCode   | Easy       |
+| 27 Mar | Matrix Similarity After Cyclic Shifts     | LeetCode   | Easy       |
+| 27 Mar | Halloumi Boxes                            | Codeforces | 800        |
+| 28 Mar | Add Two Numbers (Linked List)             | LeetCode   | Medium     |
+| 28 Mar | A. Line Trip                              | Codeforces | 800        |
 
-March 2026
-
-Date| Problem| Platform| Difficulty
-24 Mar| Rearrange Array by Sign| LeetCode| Medium
-25 Mar| Can Partition Grid| LeetCode| Medium
-25 Mar| Merge Two Sorted Lists| LeetCode| Easy
-26 Mar| Palindrome Linked List| LeetCode| Easy
-26 Mar| Remove Nth Node From End of List| LeetCode| Medium
-26 Mar| Remove Duplicates from Sorted List| LeetCode| Easy
-27 Mar| Matrix Similarity After Cyclic Shifts| LeetCode| Easy
-27 Mar| Halloumi Boxes| Codeforces| 800
-28 Mar| Add Two Numbers (Linked List)| LeetCode| Medium
-28 Mar| A. Line Trip| Codeforces| 800
-
----
-
-📂 Repository Structure
-
-DSA-Journey/
-│
-├── LeetCode/
-│   ├── Easy/
-│   │   ├── Merge_Two_Sorted_Lists.cpp
-│   │   ├── Palindrome_Linked_List.cpp
-│   │   ├── Remove_Duplicates_from_Sorted_List.cpp
-│
-│   ├── Medium/
-│   │   ├── Rearrange_Array_by_Sign.cpp
-│   │   ├── Can_Partition_Grid.cpp
-│   │   ├── Remove_Nth_Node_From_End.cpp
-│   │   ├── Matrix_Similarity_After_Cyclic_Shifts.cpp
-│   │   ├── Add_Two_Numbers.cpp
-│
-├── Codeforces/
-│   ├── 800_rating/
-│   │   ├── Halloumi_Boxes.cpp
-│   │   ├── Line_Trip.cpp
-│
-└── README.md
+## 📂 Repository Structure
+    DSA-Journey/
+    │
+    ├── LeetCode/
+    │   ├── Easy/
+    │   │   ├── Merge_Two_Sorted_Lists.cpp
+    │   │   ├── Palindrome_Linked_List.cpp
+    │   │   ├── Remove_Duplicates_from_Sorted_List.cpp
+    │
+    │   ├── Medium/
+    │   │   ├── Rearrange_Array_by_Sign.cpp
+    │   │   ├── Can_Partition_Grid.cpp
+    │   │   ├── Remove_Nth_Node_From_End.cpp
+    │   │   ├──     Matrix_Similarity_After_Cyclic_Shifts.cpp
+    │   │   ├── Add_Two_Numbers.cpp
+    │
+    ├── Codeforces/
+    │   ├── 800_rating/
+    │   │   ├── Halloumi_Boxes.cpp
+    │   │   ├── Line_Trip.cpp
+    │
+    └── README.md
 
 📌 Topics Covered
 
