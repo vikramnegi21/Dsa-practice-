@@ -4,8 +4,10 @@
 "Practice" (https://img.shields.io/badge/Practice-LeetCode%20%7C%20Codeforces-orange)
 "Status" (https://img.shields.io/badge/Status-Active-success)
 
+---
+
 This repository documents my consistent practice of Data Structures and Algorithms using C++.
-It contains problems solved from LeetCode and Codeforces, organized by difficulty and topic.
+It includes problems solved from LeetCode and Codeforces, organized by difficulty and topic.
 
 ---
 
@@ -28,7 +30,7 @@ Date| Problem| Platform| Difficulty
 26 Mar| Remove Nth Node From End of List| LeetCode| Medium
 26 Mar| Remove Duplicates from Sorted List| LeetCode| Easy
 27 Mar| Matrix Similarity After Cyclic Shifts| LeetCode| Easy
-27 Mar| Halloumi Boxes (800 Rating)| Codeforces| 800
+27 Mar| Halloumi Boxes| Codeforces| 800
 28 Mar| Add Two Numbers (Linked List)| LeetCode| Medium
 28 Mar| A. Line Trip| Codeforces| 800
 
@@ -72,19 +74,17 @@ DSA-Journey/
 
 📈 Current Focus
 
-- 🔹 Building strong problem-solving skills
-- 🔹 Mastering Linked List & core DSA concepts
-- 🔹 Practicing Codeforces (800–1000 rating problems)
-- 🔹 Improving speed & accuracy
+- Consistent problem solving
+- Strengthening core data structures
+- Practicing Codeforces (800 rating)
 
 ---
 
 🏆 Goals
 
-- Crack coding interviews
-- Reach strong rating on Codeforces
 - Master Data Structures and Algorithms
-- Stay consistent daily
+- Improve problem-solving ability
+- Perform well in coding interviews
 
 ---
 
@@ -96,11 +96,10 @@ DSA-Journey/
 
 ⚡ Notes
 
-- ✔️ Daily consistency is the main goal
-- ✔️ Clean and optimized C++ solutions
-- ✔️ Focus on understanding logic, not just solving
-- ✔️ Repository updated regularly
+- Each problem includes approach and implementation
+- Solutions are written in clean and optimized C++
+- Repository is updated regularly
 
 ---
 
-🔥 “Consistency beats intensity.”
+🔥 Consistency is the key to success.
