@@ -31,6 +31,10 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 27 Mar | Halloumi Boxes                            | Codeforces | 800        |
 | 28 Mar | Add Two Numbers (Linked List)             | LeetCode   | Medium     |
 | 28 Mar | A. Line Trip                              | Codeforces | 800        |
+| 29 Mar | A. Cover in Water                         | Codeforces | 800        |
+| 29 Mar | Sort List                                 | LeetCode   | Medium     |
+| 29 Mar | Check if Strings Can be Made Equal (2839) | LeetCode   | Easy       |
+| 29 Mar | Check if Strings Can be Made Equal II (2840) | LeetCode | Medium     |
 
 📂 Repository Structure
 
@@ -43,6 +47,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
       - Merge_Two_Sorted_Lists.cpp
       - Palindrome_Linked_List.cpp
       - Remove_Duplicates_from_Sorted_List.cpp
+      - Check if_Strings_Can_be_Made_Equal (2839) 
     
     - Medium/
       
@@ -51,6 +56,9 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
       - Remove_Nth_Node_From_End.cpp
       - Matrix_Similarity_After_Cyclic_Shifts.cpp
       - Add_Two_Numbers.cpp
+      - Sort_List.cpp
+      - Check if Strings Can be Made Equal II (2840)
+        
   
   - Codeforces/
     
