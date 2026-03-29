@@ -65,6 +65,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
     - 800_rating/
       - Halloumi_Boxes.cpp
       - Line_Trip.cpp
+      - A. Cover in Water
 
 - README.md
  
