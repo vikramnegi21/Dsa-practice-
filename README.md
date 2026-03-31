@@ -41,38 +41,14 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 31 Mar | [A. Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Codeforces | 800 | Greedy |
 | 31 Mar | [Intersection of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Medium | Linked List |
 
-Repository Structure
+## 📁 Repository Structure
 
-- DSA-Journey/
-  
-  - LeetCode/
-    
-    - Easy/
-      
-      - Merge_Two_Sorted_Lists.cpp
-      - Palindrome_Linked_List.cpp
-      - Remove_Duplicates_from_Sorted_List.cpp
-      - Check if_Strings_Can_be_Made_Equal (2839) 
-    
-    - Medium/
-      
-      - Rearrange_Array_by_Sign.cpp
-      - Can_Partition_Grid.cpp
-      - Remove_Nth_Node_From_End.cpp
-      - Matrix_Similarity_After_Cyclic_Shifts.cpp
-      - Add_Two_Numbers.cpp
-      - Sort_List.cpp
-      - Check if Strings Can be Made Equal II (2840)
-      - Odd_Even_Linked_List.cpp
-        
-  
-  - Codeforces/
-    
-    - 800_rating/
-      - Halloumi_Boxes.cpp
-      - Line_Trip.cpp
-      - A. Cover in Water
-      - Game_with_Integers.cpp
+All problems are organized by platform and difficulty:
+
+- LeetCode → Easy / Medium
+- Codeforces → 800 rating
+
+📌 Each folder contains well-structured solutions with approach and code.
 
 - README.md
  
