@@ -41,7 +41,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 31 Mar | [A. Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Codeforces | 800 | Greedy |
 | 31 Mar | [Intersection of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Medium | Linked List |
 
-## 📁 Repository Structure
+Repository Structure
 
 All problems are organized by platform and difficulty:
 
