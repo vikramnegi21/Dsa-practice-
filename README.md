@@ -105,10 +105,11 @@ Repository Structure
 
 📊 GitHub Stats
 
-"GitHub Stats" (https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=default)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=default)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=vikramnegi21)
 
 ---
-
 ⚡ Notes
 
 - Each problem includes approach and implementation
