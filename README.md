@@ -31,7 +31,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 27 Mar | Halloumi Boxes (https://codeforces.com/problemset/problem/1903/A) | Codeforces | 800 | Greedy |
 | 28 Mar | Add Two Numbers (https://leetcode.com/problems/add-two-numbers/) | LeetCode | Medium | Linked List |
 | 28 Mar | A. Line Trip (https://codeforces.com/problemset/problem/1901/A) | Codeforces | 800 | Greedy |
-| 29 Mar | A. Cover in Water (https://codeforces.com/contest/1900/problem/A) | Codeforces | 800 | Greedy |
+| 29 Mar | A. Cover in Water (https://codeforces.com/problemset/problem/1900/A) | Codeforces | 800 | Greedy |
 | 29 Mar | Sort List (https://leetcode.com/problems/sort-list/) | LeetCode | Medium | Linked List |
 | 29 Mar | Check if Strings Can be Made Equal With Operations I (https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | LeetCode | Easy | String |
 | 29 Mar | Check if Strings Can be Made Equal With Operations II (https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/) | LeetCode | Medium | String |
@@ -40,7 +40,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 31 Mar | Spiral Matrix (https://leetcode.com/problems/spiral-matrix/) | LeetCode | Medium | Matrix |
 | 31 Mar | A. Jagged Swaps (https://codeforces.com/problemset/problem/1896/A) | Codeforces | 800 | Greedy |
 | 31 Mar | Intersection of Two Linked Lists (https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Medium | Linked List |
-| 01 Apr | A. Doremy's Paint 3 (https://codeforces.com/contest/1890/problem/A) | Codeforces | 800 | Constructive Algorithms |
+| 01 Apr | A. Doremy's Paint 3 (https://codeforces.com/problemset/problem/1890/A) | Codeforces | 800 | Constructive Algorithms |
 | 01 Apr | Set Matrix Zeroes (https://leetcode.com/problems/set-matrix-zeroes/) | LeetCode | Medium | Matrix |
 
 Repository Structure
