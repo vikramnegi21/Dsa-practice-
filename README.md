@@ -31,7 +31,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 27 Mar | [Halloumi Boxes](https://codeforces.com/problemset/problem/1760/A) | Codeforces | 800 | Greedy |
 | 28 Mar | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | LeetCode | Medium | Linked List |
 | 28 Mar | [A. Line Trip](https://codeforces.com/problemset/problem/1833/A) | Codeforces | 800 | Greedy |
-| 29 Mar | [A. Cover in Water](https://codeforces.com/problemset/problem/1873/A) | Codeforces | 800 | Greedy |
+| 29 Mar | [A. Cover in Water](https://codeforces.com/contest/1900/problem/A) | Codeforces | 800 | Greedy |
 | 29 Mar | [Sort List](https://leetcode.com/problems/sort-list/) | LeetCode | Medium | Linked List |
 | 29 Mar | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | LeetCode | Easy | String |
 | 29 Mar | [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/) | LeetCode | Medium | String |
