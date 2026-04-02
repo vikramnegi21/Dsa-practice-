@@ -5,58 +5,53 @@ rows = []
 try:
     with open("problems.csv", "r", encoding="utf-8") as file:
         reader = csv.reader(file)
-        next(reader)  # header skip
+        next(reader)  # Header skip
         for row in reader:
-            if row:
-                rows.append(row)
+            if row: rows.append(row)
 except FileNotFoundError:
     print("Error: problems.csv nahi mili!")
     exit()
 
-# 2. Create Table Structure (Sahi Column Order ke saath)
-table = "| Date | Topic | Problem | Platform | Difficulty | Status |\n"
+# 2. Create Table Structure (Fixed Order)
+table = "| Date | Problem | Platform | Difficulty | Topic | Status |\n"
 table += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
 
 for r in rows:
-    # CSV Order: Date(0), Topic(1), Problem(2), Platform(3), Difficulty(4), Status(5)
+    # Sahi indexes: 0=Date, 1=Problem, 2=Platform, 3=Difficulty, 4=Topic, 5=Status
     date = r[0]
-    topic = r[1]
-    problem = r[2]
-    platform = r[3]
-    difficulty = r[4]
+    problem = r[1]
+    platform = r[2]
+    difficulty = r[3]
+    topic = r[4]
     status_raw = r[5].strip()
 
     # Status Emoji Logic
-    if "Done" in status_raw or "Solved" in status_raw:
+    if status_raw.lower() in ["done", "solved"]:
         status = "✅ Done"
-    elif "Revision" in status_raw:
+    elif status_raw.lower() == "revision":
         status = "🔁 Revision"
+    elif status_raw.lower() == "not clear":
+        status = "❌ Not Clear"
     else:
         status = status_raw
 
-    # Table mein columns sahi sequence mein set kiye hain
-    table += f"| {date} | {topic} | {problem} | {platform} | {difficulty} | {status} |\n"
+    table += f"| {date} | {problem} | {platform} | {difficulty} | {topic} | {status} |\n"
 
-# 3. Read README
-try:
-    with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
-except FileNotFoundError:
-    print("Error: README.md nahi mili!")
-    exit()
+# 3. Update README
+with open("README.md", "r", encoding="utf-8") as f:
+    content = f.read()
 
-# 4. Markers dhundna
-start = content.find("| Date")
-# Check karein ki README mein exact yehi heading hai ya nahi
-end = content.find("## Repository Structure") 
+start_marker = "| Date"
+end_marker = "## Repository Structure"
 
-if start == -1 or end == -1:
-    print("Markers nahi mile! Check karein README mein '| Date' aur '## Repository Structure' hai.")
-    exit()
+start_index = content.find(start_marker)
+end_index = content.find(end_marker)
 
-# 5. Replace and Write
-new_content = content[:start] + table + "\n" + content[end:]
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_content)
-
-print("README.md successfully update ho gaya!")
+if start_index != -1 and end_index != -1:
+    new_content = content[:start_index] + table + "\n" + content[end_index:]
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print("README.md successfully update ho gaya!")
+else:
+    print("Markers nahi mile! Check README.")
+    
