@@ -1,57 +1,42 @@
 import csv
 
-# 1. Read CSV
 rows = []
-try:
-    with open("problems.csv", "r", encoding="utf-8") as file:
-        reader = csv.reader(file)
-        next(reader)  # Header skip
-        for row in reader:
-            if row: rows.append(row)
-except FileNotFoundError:
-    print("Error: problems.csv nahi mili!")
-    exit()
 
-# 2. Create Table Structure (Fixed Order)
+# Read CSV
+with open("problems.csv", "r", encoding="utf-8") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        rows.append(row)
+
+# Create Table
 table = "| Date | Problem | Platform | Difficulty | Topic | Status |\n"
 table += "| :--- | :--- | :--- | :--- | :--- | :--- |\n"
 
 for r in rows:
-    # Sahi indexes: 0=Date, 1=Problem, 2=Platform, 3=Difficulty, 4=Topic, 5=Status
-    date = r[0]
-    problem = r[1]
-    platform = r[2]
-    difficulty = r[3]
-    topic = r[4]
-    status_raw = r[5].strip()
+    status_raw = r["Status"].strip().lower()
 
-    # Status Emoji Logic
-    if status_raw.lower() in ["done", "solved"]:
+    if status_raw in ["done", "solved"]:
         status = "✅ Done"
-    elif status_raw.lower() == "revision":
+    elif status_raw == "revision":
         status = "🔁 Revision"
-    elif status_raw.lower() == "not clear":
+    elif status_raw == "not clear":
         status = "❌ Not Clear"
     else:
-        status = status_raw
+        status = r["Status"]
 
-    table += f"| {date} | {problem} | {platform} | {difficulty} | {topic} | {status} |\n"
+    table += f"| {r['Date']} | {r['Problem']} | {r['Platform']} | {r['Difficulty']} | {r['Topic']} | {status} |\n"
 
-# 3. Update README
+# Update README
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
-start_marker = "| Date"
-end_marker = "## Repository Structure"
+start = content.find("| Date")
+end = content.find("## Repository Structure")
 
-start_index = content.find(start_marker)
-end_index = content.find(end_marker)
-
-if start_index != -1 and end_index != -1:
-    new_content = content[:start_index] + table + "\n" + content[end_index:]
+if start != -1 and end != -1:
+    new_content = content[:start] + table + "\n" + content[end:]
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)
-    print("README.md successfully update ho gaya!")
+    print("README updated successfully!")
 else:
-    print("Markers nahi mile! Check README.")
-    
+    print("Markers not found!")
