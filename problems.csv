@@ -20,7 +20,7 @@ Date,Topic,Problem,Platform,Difficulty,Status
 31 Mar,Linked List,"[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)",LeetCode,Medium,Revision
 01 Apr,C. Algo,"[A. Doremy's Paint 3](https://codeforces.com/problemset/problem/1890/A)",Codeforces,800,Done
 01 Apr,Matrix,"[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)",LeetCode,Medium,Done
-02 Apr,Linked List,"[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)",LeetCode,Medium,Revision
-02 Apr,Linked List,"[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)",LeetCode,Medium,Revision
-02 Apr,Linked List,"[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)",LeetCode,Medium,Revision
+02 Apr,Linked List,"[Remove Duplicates II (82)](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)",LeetCode,Medium,Revision
+02 Apr,Linked List,"[Reverse List II (92)](https://leetcode.com/problems/reverse-linked-list-ii/)",LeetCode,Medium,Revision
+02 Apr,Linked List,"[Delete Node (237)](https://leetcode.com/problems/delete-node-in-a-linked-list/)",LeetCode,Medium,Revision
 02 Apr,Greedy,"[Don't Try to Count](https://codeforces.com/problemset/problem/1881/A)",Codeforces,800,Revision
