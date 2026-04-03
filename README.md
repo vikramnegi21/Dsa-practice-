@@ -74,20 +74,15 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 ---
 
-### 🛠️ Git Workflow (One-Click Update)
-
-Jab bhi tracker update karna ho, bas ye command terminal mein copy-paste kar dena:
-
-```bash
+📊 GitHub Profile Status 
 git add . && git commit -m "Update: DSA Practice $(date +'%d-%m-%Y')" && git push origin main
-📊 GitHub Profile Status (
-![Vikram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikramnegi21&layout=compact&theme=tokyonight&hide_border=true)
 
-🎯 Target Milestones
-[ ] Codeforces Pupil (1200+): 800-900 rated problems ko master karke rating boost karni hai.
-[ ] LeetCode 150+ Mediums: Top product-based companies ke liye logical thinking build karni hai.
-[ ] Striver's A2Z Sheet: 100% completion for a rock-solid foundation in every topic.
-[ ] Weekly Contests: Kam se kam 2 contests har hafte dene hain (No matter the rank!).
-🔥 "Success isn't about being the best at C++, it's about being more consistent than the person you were yesterday. Keep coding, keep grinding."
+## 🎯 Target Milestones
+
+| Milestone            | Objective                          | Status |
+|---------------------|------------------------------------|--------|
+| Codeforces Pupil    | 1200+ Rating                      | 🟡 800 |
+| LeetCode Specialist | 150+ Mediums                      | 📈 Progressing |
+| DSA Mastery         | A2Z Sheet Completion              | 🏗️ Ongoing |
+| Contest Ready       | 2+ / Week                         | 🔥 Active |
