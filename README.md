@@ -49,6 +49,7 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 03 Apr | [A. Goals of Victory](https://codeforces.com/problemset/problem/1877/A) | Codeforces | 800 | Math | ✅ Done |
 | 03 Apr | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | LeetCode | Medium | Array | ✅ Done |
 
+---
 
 ---
 
@@ -56,9 +57,9 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 | Goal | Target | Current Status |
 | :--- | :--- | :--- |
-| **Codeforces Rating** | **1200+** | 🟡 800 (Started) |
-| **Problem Count** | **800 - 1000** | 📈 28+ Problems |
-| **Current Streak** | **Daily Practice** | 🔥 Active |
+| **Codeforces Rating** | **1200+** | 🟡 800 |
+| **Total Solved** | **800 - 1000** | 📈 28 (LeetCode + CF) |
+| **GitHub Streak** | **Daily Push** | [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=__vikram21&theme=tokyonight)](https://git.io/streak-stats) |
 
 ---
 
@@ -73,12 +74,20 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 ---
 
-### 🛠️ Git Workflow (How to Update)
+### 🛠️ Git Workflow (One-Click Update)
 
-Jab bhi naya problem solve ho, ye commands use karke tracker update karein:
+Jab bhi tracker update karna ho, bas ye command terminal mein copy-paste kar dena:
 
-1. **Check current state:**
-   ```bash
-   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=__vikram21&theme=tokyonight)](https://git.io/streak-stats)
-   
-   
+```bash
+git add . && git commit -m "Update: DSA Practice $(date +'%d-%m-%Y')" && git push origin main
+📊 GitHub Profile Status (
+![Vikram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vikramnegi21&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vikramnegi21&layout=compact&theme=tokyonight&hide_border=true)
+
+🎯 Target Milestones
+[ ] Codeforces Pupil (1200+): 800-900 rated problems ko master karke rating boost karni hai.
+[ ] LeetCode 150+ Mediums: Top product-based companies ke liye logical thinking build karni hai.
+[ ] Striver's A2Z Sheet: 100% completion for a rock-solid foundation in every topic.
+[ ] Weekly Contests: Kam se kam 2 contests har hafte dene hain (No matter the rank!).
+🔥 "Success isn't about being the best at C++, it's about being more consistent than the person you were yesterday. Keep coding, keep grinding."
