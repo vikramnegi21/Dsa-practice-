@@ -72,19 +72,12 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 - [ ] **Recursion & Backtracking**
 - [ ] **Binary Search** (Targeting Medium problems)
 
----
-
-## 📊 GitHub Profile Status
-
-```bash
-git add . && git commit -m "Update: DSA Practice $(date +'%d-%m-%Y')" && git push origin main
-
 
 ## 🎯 Target Milestones
 
-| Milestone            | Objective                          | Status |
-|---------------------|------------------------------------|--------|
-| Codeforces Pupil    | 1200+ Rating                      | 🟡 800 |
-| LeetCode Specialist | 150+ Mediums                      | 📈 Progressing |
-| DSA Mastery         | A2Z Sheet Completion              | 🏗️ Ongoing |
-| Contest Ready       | 2+ / Week                         | 🔥 Active |
+| Milestone            | Objective              | Current Status                     |
+|---------------------|------------------------|------------------------------------|
+| Codeforces Pupil    | 1200+ Rating          | 🟡 800 (Grinding 800–1000)         |
+| LeetCode Specialist | 150+ Mediums          | 📈 Building Intuition              |
+| DSA Mastery         | Striver's A2Z Sheet   | 🏗️ In Progress                     |
+| Contest Ready       | 2+ / Week             | 🔥 Weekly Active                   |
