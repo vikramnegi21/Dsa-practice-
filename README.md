@@ -48,3 +48,37 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 | 03 Apr | [A. How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A) | Codeforces | 800 | Greedy | ✅ Done |
 | 03 Apr | [A. Goals of Victory](https://codeforces.com/problemset/problem/1877/A) | Codeforces | 800 | Math | ✅ Done |
 | 03 Apr | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | LeetCode | Medium | Array | ✅ Done |
+
+
+---
+
+### 📊 Progress Tracker
+
+| Goal | Target | Current Status |
+| :--- | :--- | :--- |
+| **Codeforces Rating** | **1200+** | 🟡 800 (Started) |
+| **Problem Count** | **800 - 1000** | 📈 28+ Problems |
+| **Current Streak** | **Daily Practice** | 🔥 Active |
+
+---
+
+### 🎯 Weekly Goals & Topics
+
+- [x] **Arrays & Matrices** (Mastering basic patterns)
+- [x] **Linked List** (Implementation & Manipulation)
+- [ ] **Greedy Algorithms** (Current Focus: CF 800-900)
+- [ ] **String Search & Hashing**
+- [ ] **Recursion & Backtracking**
+- [ ] **Binary Search** (Targeting Medium problems)
+
+---
+
+### 🛠️ Git Workflow (How to Update)
+
+Jab bhi naya problem solve ho, ye commands use karke tracker update karein:
+
+1. **Check current state:**
+   ```bash
+   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=__vikram21&theme=tokyonight)](https://git.io/streak-stats)
+   
+   
