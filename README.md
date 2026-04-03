@@ -74,7 +74,9 @@ It includes problems solved from LeetCode and Codeforces, organized by difficult
 
 ---
 
-📊 GitHub Profile Status 
+## 📊 GitHub Profile Status
+
+```bash
 git add . && git commit -m "Update: DSA Practice $(date +'%d-%m-%Y')" && git push origin main
 
 
