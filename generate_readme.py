@@ -113,6 +113,8 @@ def generate_heatmap(problems):
 
 # BUILD README
 def build_readme(problems):
+    print("FORCE UPDATE", datetime.now())   # 🔥 force change
+
     total = len(problems)
     streak = calc_streak(problems)
 
