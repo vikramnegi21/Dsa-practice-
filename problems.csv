@@ -27,3 +27,7 @@ Date,Problem,Platform,Difficulty,Topic,Status
 03 Apr,"[A. How Much Does Daytona Cost?](https://codeforces.com/problemset/problem/1878/A)",Codeforces,800,Greedy,Done
 03 Apr,"[A. Goals of Victory](https://codeforces.com/problemset/problem/1877/A)",Codeforces,800,Math,Done
 03 Apr,"[Merge Intervals](https://leetcode.com/problems/merge-intervals/)",LeetCode,Medium,Array,Done
+05 Apr,"[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)",LeetCode,Easy,String,Done
+05 Apr,"[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)",LeetCode,Medium,String,Done
+05 Apr,"[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)",LeetCode,Medium,Array,Done
+05 Apr,"[C. Target Practice](https://codeforces.com/problemset/problem/1873/C)",Codeforces,800,Matrix,Done
