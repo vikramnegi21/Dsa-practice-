@@ -1,10 +1,14 @@
 # 🔥 DSA Forge
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-__vikram21-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/__vikram21/)  [![Codeforces](https://img.shields.io/badge/Codeforces-__vikram21-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)  [![GitHub](https://img.shields.io/badge/GitHub-Dsa-practice-181717?style=flat&logo=github)](https://github.com/Vikram-353/Dsa-practice)  ![Problems](https://img.shields.io/badge/Solved-32%20problems-brightgreen?style=flat)  ![Streak](https://img.shields.io/badge/🔥%20Streak-1%20days-orange?style=flat)
+[![LeetCode](https://img.shields.io/badge/LeetCode-__vikram21-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/__vikram21/)  [![Codeforces](https://img.shields.io/badge/Codeforces-__vikram21-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)  [![GitHub](https://img.shields.io/badge/GitHub-Dsa-practice--181717?style=flat&logo=github)](https://github.com/vikramnegi21/Dsa-practice-)  ![Problems](https://img.shields.io/badge/Solved-32%20problems-brightgreen?style=flat)  ![Streak](https://img.shields.io/badge/%F0%9F%94%A5%20Streak-1%20days-orange?style=flat)
+
+> 🎯 **Goal:** Crack a web dev internship · Solving Striver's A2Z DSA Sheet · Daily LeetCode + Codeforces grind
+>
+> 📌 4th Sem CSE · Language: C++ · [Striver's A2Z Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 ## 📊 Stats
 
-| 🎯 Total Solved | ✅ Done | 🔄 Revision | 🔥 Current Streak | 🏆 Longest Streak |
+| 🎯 Total | ✅ Done | 🔄 Revision | 🔥 Streak | 🏆 Best Streak |
 |:-:|:-:|:-:|:-:|:-:|
 | **32** | **27** | **5** | **1 days** | **11 days** |
 
@@ -12,7 +16,7 @@
 |:-:|:-:|:-:|:-:|:-:|
 | **22** | **10** | **6** | **16** | **0** |
 
-**Codeforces by Rating:**  `800` × 10
+**CF by Rating:** `800` × **10**
 
 ## 📅 Activity — Last 90 Days
 
@@ -20,41 +24,43 @@
 
 ## 🧩 Topics
 
-| Topic | Progress | Count |
-|-------|----------|-------|
-| `Linked_List` | `███████████████` 11/11 (100%) | **11** |
-| `Greedy` | `████████░░░░░░░` 6/11 (54%) | **6** |
-| `Matrix` | `███████░░░░░░░░` 5/11 (45%) | **5** |
-| `String` | `█████░░░░░░░░░░` 4/11 (36%) | **4** |
-| `Array` | `████░░░░░░░░░░░` 3/11 (27%) | **3** |
-| `Math` | `███░░░░░░░░░░░░` 2/11 (18%) | **2** |
-| `Constructive_Algorithms` | `█░░░░░░░░░░░░░░` 1/11 (9%) | **1** |
+| Topic | Progress | Solved |
+|-------|:--------:|:------:|
+| `Linked_List` | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | **11** |
+| `Greedy` | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | **6** |
+| `Matrix` | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | **5** |
+| `String` | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | **4** |
+| `Array` | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | **3** |
+| `Math` | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | **2** |
+| `Constructive_Algorithms` | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | **1** |
 
 ## 🎯 Goals
 
-- 🔲 **150 LeetCode problems** — `██░░░░░░░░░░` 22/150 (14%)
-- 🔲 **50 Codeforces problems** — `██░░░░░░░░░░` 10/50 (20%)
-- 🔲 **Complete Linked List topic** — `█████████░░░` 11/15 (73%)
-- 🔲 **Complete Array topic** — `██░░░░░░░░░░` 3/20 (15%)
-- 🔲 **Complete Matrix topic** — `██████░░░░░░` 5/10 (50%)
-- 🔲 **Reach 30-day streak** — `░░░░░░░░░░░░` 1/30 (3%)
+| Goal | Progress | Status |
+|------|----------|:------:|
+| **Striver A2Z — LeetCode** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `22/455` | 4% |
+| **Codeforces Problems** | 🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜ `10/100` | 10% |
+| **Linked List (Striver)** | 🟦🟦🟦🟦🟦🟦⬜⬜⬜⬜ `11/18` | 61% |
+| **Arrays (Striver)** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `3/53` | 5% |
+| **Matrix (Striver)** | 🟦🟦🟦🟦⬜⬜⬜⬜⬜⬜ `5/13` | 38% |
+| **30-Day Streak** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ `1/30` | 3% |
 
 ## 🔄 Needs Revision
 
-| # | Problem | Platform | Difficulty | Topic |
-|---|---------|----------|------------|-------|
-| 1 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Medium | `Linked_List` |
-| 2 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | LeetCode | Medium | `Linked_List` |
-| 3 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | LeetCode | Medium | `Linked_List` |
-| 4 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | LeetCode | Medium | `Linked_List` |
-| 5 | [Don't Try to Count](https://codeforces.com/problemset/problem/1881/A) | Codeforces | 800 | `Greedy` |
+| # | Problem | Platform | Topic |
+|:-:|---------|----------|-------|
+| 1 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | `Linked_List` |
+| 2 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | LeetCode | `Linked_List` |
+| 3 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | LeetCode | `Linked_List` |
+| 4 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | LeetCode | `Linked_List` |
+| 5 | [Don't Try to Count](https://codeforces.com/problemset/problem/1881/A) | Codeforces | `Greedy` |
 
 ## 📋 All Problems
 
-<details><summary>Click to expand (32 problems)</summary>
+<details><summary>Click to expand — 32 problems solved</summary>
 
 | Date | Problem | Platform | Difficulty | Topic | Status |
-|------|---------|----------|------------|-------|--------|
+|------|---------|----------|:----------:|-------|:------:|
 | 05 Apr | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | LeetCode | Easy | `String` | ✅ |
 | 05 Apr | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | LeetCode | Medium | `String` | ✅ |
 | 05 Apr | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | LeetCode | Medium | `Array` | ✅ |
@@ -91,4 +97,4 @@
 </details>
 
 ---
-*Last updated: **05 Apr 2026** · Auto-generated from [problems.csv](problems.csv) via GitHub Actions*
+*Auto-updated: **05 Apr 2026** · Generated from [problems.csv](problems.csv) via GitHub Actions*
