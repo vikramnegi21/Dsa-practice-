@@ -10,7 +10,7 @@ LEETCODE_USER = "__vikram21"
 CF_USER       = "__vikram21"
 GITHUB_USER   = "vikramnegi21"
 
-# DATE
+# DATE PARSE
 def parse_date(raw):
     raw = raw.strip()
     if not raw:
@@ -37,7 +37,7 @@ def load_problems():
     return rows
 
 # STREAK
-def calc_streaks(problems):
+def calc_streak(problems):
     dates = {p["parsed_date"] for p in problems}
     cur = 0
     d = date.today()
@@ -46,7 +46,7 @@ def calc_streaks(problems):
         d -= timedelta(days=1)
     return cur
 
-# GITHUB API
+# GITHUB CONTRIBUTIONS
 def github_contributions():
     token = os.getenv("GH_TOKEN")
     if not token:
@@ -66,8 +66,7 @@ def github_contributions():
     try:
         res = requests.post("https://api.github.com/graphql",
                             json={"query": query}, headers=headers)
-        data = res.json()
-        return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+        return res.json()["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
     except:
         return 0
 
@@ -87,7 +86,7 @@ def cf_rating():
     except:
         return 0
 
-# HEATMAP SVG
+# HEATMAP
 def generate_heatmap(problems):
     date_counts = defaultdict(int)
     for p in problems:
@@ -96,25 +95,24 @@ def generate_heatmap(problems):
     today = date.today()
     start = today - timedelta(days=90)
 
-    cells = []
-    d = start
-    while d <= today:
-        cells.append((d, date_counts.get(d, 0)))
-        d += timedelta(days=1)
-
     rects = ""
-    for i, (dt, cnt) in enumerate(cells):
+    d = start
+    i = 0
+    while d <= today:
+        cnt = date_counts.get(d, 0)
         x = (i // 7) * 15
         y = (i % 7) * 15
         color = "#39d353" if cnt > 0 else "#161b22"
         rects += f'<rect x="{x}" y="{y}" width="10" height="10" fill="{color}"/>'
+        d += timedelta(days=1)
+        i += 1
 
     return f'<svg width="300" height="120">{rects}</svg>'
 
-# README
+# BUILD README
 def build_readme(problems):
     total = len(problems)
-    streak = calc_streaks(problems)
+    streak = calc_streak(problems)
 
     lc = leetcode_stats()
     cf = cf_rating()
@@ -125,8 +123,7 @@ def build_readme(problems):
     with open("heatmap.svg", "w") as f:
         f.write(heatmap)
 
-    return f"""
-# 🚀 DSA Dashboard
+    return f"""# 🚀 DSA Dashboard
 
 ## 👨‍💻 Stats
 
@@ -160,4 +157,4 @@ if __name__ == "__main__":
     with open("README.md", "w") as f:
         f.write(readme)
 
-    print("✅ README + Heatmap updated")
+    print("✅ README updated")
