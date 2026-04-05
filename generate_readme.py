@@ -13,18 +13,19 @@ from collections import defaultdict
 
 LEETCODE_USER  = "__vikram21"
 CF_USER        = "__vikram21"
-GITHUB_USER    = "Vikram-353"
-REPO_NAME      = "Dsa-practice"
+GITHUB_USER    = "Vikramnegi21"
+REPO_NAME      = "Dsa-practice-"
 HEATMAP_DAYS   = 90
 
 # Goals — edit as you progress
 GOALS = [
-    ("150 LeetCode problems",        150, "lc_total"),
-    ("50 Codeforces problems",        50, "cf_total"),
-    ("Complete Linked List topic",    15, "topic_Linked_List"),
-    ("Complete Array topic",          20, "topic_Array"),
-    ("Complete Matrix topic",         10, "topic_Matrix"),
-    ("Reach 30-day streak",           30, "streak"),
+    ("Striver A2Z Sheet — LeetCode",  455, "lc_total"),
+    ("Codeforces Problems",           100, "cf_total"),
+    ("Linked List (Striver)",          18, "topic_Linked_List"),
+    ("Arrays (Striver)",               53, "topic_Array"),
+    ("Matrix (Striver)",               13, "topic_Matrix"),
+    ("Binary Search (Striver)",        32, "topic_Binary_Search"),
+    ("30-Day Streak",                  30, "streak"),
 ]
 
 
