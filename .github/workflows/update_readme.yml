@@ -5,6 +5,8 @@ on:
     paths:
       - "problems.csv"
   workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"   # daily 10:30 AM IST
 
 jobs:
   update-readme:
@@ -23,14 +25,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: 🔧 Install dependencies
+        run: pip install requests
+
       - name: 🔧 Run generator
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python generate_readme.py
 
       - name: 📤 Commit & push changes
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md heatmap.svg
+          git add README.md heatmap.svg contrib.svg || true
           git diff --staged --quiet \
             && echo "Nothing changed, skipping commit." \
             || git commit -m "📊 Auto-update README · $(date +'%d %b %Y')" \
