@@ -1,4 +1,4 @@
-Date,Problem,Platform,Difficulty,Topic,Status
+IsmeDate,Problem,Platform,Difficulty,Topic,Status
 24 Mar,"[Rearrange Array by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)",LeetCode,Medium,Array,Done
 25 Mar,"[Can Partition Grid](https://leetcode.com/problems/can-partition-grid/)",LeetCode,Medium,Matrix,Done
 25 Mar,"[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)",LeetCode,Easy,Linked_List,Done
@@ -31,3 +31,6 @@ Date,Problem,Platform,Difficulty,Topic,Status
 05 Apr,"[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)",LeetCode,Medium,String,Done
 05 Apr,"[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)",LeetCode,Medium,Array,Done
 05 Apr,"[C. Target Practice](https://codeforces.com/problemset/problem/1873/C)",Codeforces,800,Matrix,Done
+06 Apr,"[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)",LeetCode,Medium,Simulation,Done
+06 Apr,"[3Sum Closest](https://leetcode.com/problems/3sum-closest/)",LeetCode,Medium,Two_Pointers,Done
+06 Apr,"[A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A)",Codeforces,800,Math,Done
