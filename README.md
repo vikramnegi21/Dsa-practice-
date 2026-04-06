@@ -1,23 +1,23 @@
 # DSA Forge - vikramnegi21
 
-> Last updated: 06 Apr 2026, 03:21 UTC
+> Last updated: 06 Apr 2026, 15:09 UTC
 
-![LeetCode](https://img.shields.io/badge/LeetCode-101-FFA116?logo=leetcode&logoColor=white) ![CF](https://img.shields.io/badge/Codeforces-0-1F8ACB?logo=codeforces&logoColor=white) ![Streak](https://img.shields.io/badge/Streak-1%20days-39d353?logo=github) ![Total](https://img.shields.io/badge/Problems-32-blueviolet)
+![LeetCode](https://img.shields.io/badge/LeetCode-103-FFA116?logo=leetcode&logoColor=white) ![CF](https://img.shields.io/badge/Codeforces-0-1F8ACB?logo=codeforces&logoColor=white) ![Streak](https://img.shields.io/badge/Streak-2%20days-39d353?logo=github) ![Total](https://img.shields.io/badge/Problems-35-blueviolet)
 
 ---
 
 ## Overview
 | Metric | Value |
 |--------|-------|
-| LeetCode Solved | **101** (E:62 M:39 H:0) |
-| LeetCode Rank | **1527417** |
+| LeetCode Solved | **103** (E:62 M:41 H:0) |
+| LeetCode Rank | **1479045** |
 | Codeforces Rating | **0** (peak: 0) |
 | CF Rank | **unrated** |
 | GitHub Contributions | **0** |
-| Current Streak | **1 days** |
+| Current Streak | **2 days** |
 | Best Streak | **11 days** |
-| 30-day Consistency | **3.3%** |
-| Total Problems | **32** |
+| 30-day Consistency | **6.7%** |
+| Total Problems | **35** |
 
 ---
 
@@ -25,10 +25,10 @@
 | Level | Count |
 |-------|-------|
 | Easy | 6 |
-| Medium | 16 |
+| Medium | 18 |
 | Hard | 0 |
 
-🟢🟢🟢🟡🟡🟡🟡🟡🟡🟡
+🟢🟢🟡🟡🟡🟡🟡🟡🟡🟡
 
 ---
 
@@ -42,9 +42,12 @@
 
 ---
 
-## Last 7 Days (18 problems)
+## Last 7 Days (21 problems)
 | Date | Problem | Platform | Difficulty |
 |------|---------|----------|------------|
+| 06 Apr | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | LeetCode | Medium |
+| 06 Apr | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | LeetCode | Medium |
+| 06 Apr | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | Codeforces | 800 |
 | 05 Apr | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | LeetCode | Easy |
 | 05 Apr | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | LeetCode | Medium |
 | 05 Apr | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | LeetCode | Medium |
@@ -67,7 +70,7 @@
 ---
 
 ## Topics Covered
-![Linked_List](https://img.shields.io/badge/Linked_List-11-0a84ff)  ![Greedy](https://img.shields.io/badge/Greedy-6-0a84ff)  ![Matrix](https://img.shields.io/badge/Matrix-5-0a84ff)  ![String](https://img.shields.io/badge/String-4-0a84ff)  ![Array](https://img.shields.io/badge/Array-3-0a84ff)  ![Math](https://img.shields.io/badge/Math-2-0a84ff)  ![Constructive_Algorithms](https://img.shields.io/badge/Constructive_Algorithms-1-0a84ff)
+![Linked_List](https://img.shields.io/badge/Linked_List-11-0a84ff)  ![Greedy](https://img.shields.io/badge/Greedy-6-0a84ff)  ![Matrix](https://img.shields.io/badge/Matrix-5-0a84ff)  ![String](https://img.shields.io/badge/String-4-0a84ff)  ![Array](https://img.shields.io/badge/Array-3-0a84ff)  ![Math](https://img.shields.io/badge/Math-3-0a84ff)  ![Constructive_Algorithms](https://img.shields.io/badge/Constructive_Algorithms-1-0a84ff)  ![Simulation](https://img.shields.io/badge/Simulation-1-0a84ff)  ![Two_Pointers](https://img.shields.io/badge/Two_Pointers-1-0a84ff)
 
 | Topic | Count |
 |-------|-------|
@@ -76,22 +79,27 @@
 | Matrix | 5 |
 | String | 4 |
 | Array | 3 |
-| Math | 2 |
+| Math | 3 |
 | Constructive_Algorithms | 1 |
+| Simulation | 1 |
+| Two_Pointers | 1 |
 
 ---
 
 ## Platform Split
 | Platform | Count | Bar |
 |----------|-------|-----|
-| LeetCode | 22 | XXXXXXXXXXXXXXXXXXXX |
-| Codeforces | 10 | XXXXXXXXXX |
+| LeetCode | 24 | XXXXXXXXXXXXXXXXXXXX |
+| Codeforces | 11 | XXXXXXXXXXX |
 
 ---
 
-## All Problems (32 total)
+## All Problems (35 total)
 | Date | Problem | Platform | Topic | Difficulty | Link |
 |------|---------|----------|-------|------------|------|
+| 06 Apr | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | Codeforces | Math | 800 | - |
+| 06 Apr | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | LeetCode | Two_Pointers | Medium | - |
+| 06 Apr | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | LeetCode | Simulation | Medium | - |
 | 05 Apr | [C. Target Practice](https://codeforces.com/problemset/problem/1873/C) | Codeforces | Matrix | 800 | - |
 | 05 Apr | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | LeetCode | Array | Medium | - |
 | 05 Apr | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | LeetCode | String | Medium | - |
