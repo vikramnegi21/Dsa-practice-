@@ -1,23 +1,23 @@
 # DSA Forge - vikramnegi21
 
-> Last updated: 06 Apr 2026, 19:02 UTC
+> Last updated: 07 Apr 2026, 15:32 UTC
 
-![LeetCode](https://img.shields.io/badge/LeetCode-103-FFA116?logo=leetcode&logoColor=white) ![CF](https://img.shields.io/badge/Codeforces-0-1F8ACB?logo=codeforces&logoColor=white) ![Streak](https://img.shields.io/badge/Streak-2%20days-39d353?logo=github) ![Total](https://img.shields.io/badge/Problems-35-blueviolet)
+![LeetCode](https://img.shields.io/badge/LeetCode-0-FFA116?logo=leetcode&logoColor=white) ![CF](https://img.shields.io/badge/Codeforces-0-1F8ACB?logo=codeforces&logoColor=white) ![Streak](https://img.shields.io/badge/Streak-3%20days-39d353?logo=github) ![Total](https://img.shields.io/badge/Problems-37-blueviolet)
 
 ---
 
 ## Overview
 | Metric | Value |
 |--------|-------|
-| LeetCode Solved | **103** (E:62 M:41 H:0) |
-| LeetCode Rank | **1479045** |
+| LeetCode Solved | **0** (E:0 M:0 H:0) |
+| LeetCode Rank | **N/A** |
 | Codeforces Rating | **0** (peak: 0) |
 | CF Rank | **unrated** |
 | GitHub Contributions | **0** |
-| Current Streak | **2 days** |
+| Current Streak | **3 days** |
 | Best Streak | **11 days** |
-| 30-day Consistency | **6.7%** |
-| Total Problems | **35** |
+| 30-day Consistency | **10.0%** |
+| Total Problems | **37** |
 
 ---
 
@@ -25,7 +25,7 @@
 | Level | Count |
 |-------|-------|
 | Easy | 6 |
-| Medium | 18 |
+| Medium | 19 |
 | Hard | 0 |
 
 🟢🟢🟡🟡🟡🟡🟡🟡🟡🟡
@@ -45,6 +45,8 @@
 ## Last 7 Days (21 problems)
 | Date | Problem | Platform | Difficulty |
 |------|---------|----------|------------|
+| 07 Apr | [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | LeetCode | Medium |
+| 07 Apr | [A. Sequence Game](https://codeforces.com/problemset/problem/2164/A) | Codeforces | 800 |
 | 06 Apr | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | LeetCode | Medium |
 | 06 Apr | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | LeetCode | Medium |
 | 06 Apr | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | Codeforces | 800 |
@@ -64,24 +66,22 @@
 | 31 Mar | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | LeetCode | Medium |
 | 31 Mar | [A. Jagged Swaps](https://codeforces.com/problemset/problem/1896/A) | Codeforces | 800 |
 | 31 Mar | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | LeetCode | Medium |
-| 30 Mar | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | LeetCode | Medium |
-| 30 Mar | [A. Game with Integers](https://codeforces.com/problemset/problem/1899/A) | Codeforces | 800 |
 
 ---
 
 ## Topics Covered
-![Linked_List](https://img.shields.io/badge/Linked_List-11-0a84ff)  ![Greedy](https://img.shields.io/badge/Greedy-6-0a84ff)  ![Matrix](https://img.shields.io/badge/Matrix-5-0a84ff)  ![String](https://img.shields.io/badge/String-4-0a84ff)  ![Array](https://img.shields.io/badge/Array-3-0a84ff)  ![Math](https://img.shields.io/badge/Math-3-0a84ff)  ![Constructive_Algorithms](https://img.shields.io/badge/Constructive_Algorithms-1-0a84ff)  ![Simulation](https://img.shields.io/badge/Simulation-1-0a84ff)  ![Two_Pointers](https://img.shields.io/badge/Two_Pointers-1-0a84ff)
+![Linked_List](https://img.shields.io/badge/Linked_List-11-0a84ff)  ![Greedy](https://img.shields.io/badge/Greedy-7-0a84ff)  ![Matrix](https://img.shields.io/badge/Matrix-5-0a84ff)  ![String](https://img.shields.io/badge/String-4-0a84ff)  ![Array](https://img.shields.io/badge/Array-3-0a84ff)  ![Math](https://img.shields.io/badge/Math-3-0a84ff)  ![Simulation](https://img.shields.io/badge/Simulation-2-0a84ff)  ![Constructive_Algorithms](https://img.shields.io/badge/Constructive_Algorithms-1-0a84ff)  ![Two_Pointers](https://img.shields.io/badge/Two_Pointers-1-0a84ff)
 
 | Topic | Count |
 |-------|-------|
 | Linked_List | 11 |
-| Greedy | 6 |
+| Greedy | 7 |
 | Matrix | 5 |
 | String | 4 |
 | Array | 3 |
 | Math | 3 |
+| Simulation | 2 |
 | Constructive_Algorithms | 1 |
-| Simulation | 1 |
 | Two_Pointers | 1 |
 
 ---
@@ -89,14 +89,16 @@
 ## Platform Split
 | Platform | Count | Bar |
 |----------|-------|-----|
-| LeetCode | 24 | XXXXXXXXXXXXXXXXXXXX |
-| Codeforces | 11 | XXXXXXXXXXX |
+| LeetCode | 25 | XXXXXXXXXXXXXXXXXXXX |
+| Codeforces | 12 | XXXXXXXXXXXX |
 
 ---
 
-## All Problems (35 total)
+## All Problems (37 total)
 | Date | Problem | Platform | Topic | Difficulty | Link |
 |------|---------|----------|-------|------------|------|
+| 07 Apr | [A. Sequence Game](https://codeforces.com/problemset/problem/2164/A) | Codeforces | Greedy | 800 | - |
+| 07 Apr | [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | LeetCode | Simulation | Medium | - |
 | 06 Apr | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | Codeforces | Math | 800 | - |
 | 06 Apr | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | LeetCode | Two_Pointers | Medium | - |
 | 06 Apr | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | LeetCode | Simulation | Medium | - |
