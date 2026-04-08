@@ -1,5 +1,5 @@
 import csv, json, urllib.request
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta, date, timezone
 from collections import defaultdict
 
 # --- CONFIG ---
@@ -29,34 +29,43 @@ def read_csv():
     rows = []
     try:
         with open(CSV_FILE, newline='', encoding='utf-8') as f:
-            for r in csv.DictReader(f):
-                rows.append({k: v.strip() for k, v in r.items()})
-    except: pass
+            reader = csv.DictReader(f)
+            for r in reader:
+                # Cleaning: Removes hidden spaces from headers and values
+                clean_row = {str(k).strip(): str(v).strip() for k, v in r.items() if k}
+                rows.append(clean_row)
+    except Exception as e:
+        print(f"⚠️ CSV Error: {e}")
     return rows
 
 def parse_date(s):
+    if not s: return None
     for fmt in ["%Y-%m-%d","%d %b %Y","%d-%m-%Y"]:
         try: return datetime.strptime(s.strip(), fmt).date()
         except: continue
     return None
 
 def get_progress_bar(done, total, color="39d353"):
+    if total <= 0: return "![0](https://geps.dev/progress/0)"
     percent = min(round((done / total) * 100, 1), 100)
-    # Using a dynamic SVG progress bar for animation effect
     return f"![Progress](https://geps.dev/progress/{int(percent)}?dangerColor=ff4b4b&warningColor=f1c40f&successColor={color})"
 
 def build_readme(problems, lc):
-    now = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime("%d %b %Y | %I:%M %p IST")
-    total_solved = len(problems)
+    # Fix: Replacement for deprecated utcnow()
+    now_utc = datetime.now(timezone.utc)
+    now_ist = now_utc + timedelta(hours=5, minutes=30)
+    now_str = now_ist.strftime("%d %b %Y | %I:%M %p IST")
     
-    # Topic & Platform Logic
+    total_solved = len(problems)
     topics = defaultdict(int)
     plats = defaultdict(int)
-    for p in problems:
-        if p.get("Topic"): topics[p["Topic"]] += 1
-        if p.get("Platform"): plats[p["Platform"]] += 1
     
-    # Header & Styles
+    for p in problems:
+        t = p.get("Topic")
+        pl = p.get("Platform")
+        if t: topics[t] += 1
+        if pl: plats[pl] += 1
+    
     header_url = f"https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=DSA%20FORGE%20v2.0&fontSize=70&animation=twinkling&fontColor=58a6ff&desc=Vikram%20Negi%20•%20B.Tech%20CSE%20•%20Competitive%20Programmer&descSize=20&descAlignY=65"
 
     L = [
@@ -89,11 +98,21 @@ def build_readme(problems, lc):
     L.append("\n## 🕒 Recent Submissions")
     L.append("| Problem | Platform | Difficulty | Date |")
     L.append("| :--- | :--- | :---: | :---: |")
-    for p in sorted(problems, key=lambda x: parse_date(x["Date"]) or date.min, reverse=True)[:5]:
-        L.append(f"| [{p['Problem']}]({p['Link']}) | `{p['Platform']}` | `{p['Difficulty']}` | {p['Date']} |")
+    
+    # Safe Sorting
+    sorted_probs = sorted(problems, key=lambda x: parse_date(x.get("Date", "")) or date.min, reverse=True)
+    
+    for p in sorted_probs[:10]:
+        # Using .get() to prevent KeyError if a column is missing
+        name = p.get("Problem", "Unknown Problem")
+        link = p.get("Link", "#")
+        plat = p.get("Platform", "N/A")
+        diff = p.get("Difficulty", "N/A")
+        dt   = p.get("Date", "N/A")
+        L.append(f"| [{name}]({link}) | `{plat}` | `{diff}` | {dt} |")
 
     L.append(f'\n<br/>\n<div align="center">\n\n![]({header_url.replace("section=header", "section=footer&reversal=true&height=80&text=").replace("DSA%20FORGE%20v2.0", "")})')
-    L.append(f'\n\n**System Sync:** `{now}`  \n*Every commit makes you 1% better.*')
+    L.append(f'\n\n**System Sync:** `{now_str}`  \n*Every commit makes you 1% better.*')
     L.append('\n</div>')
 
     return "\n".join(L)
@@ -102,6 +121,9 @@ def main():
     print("🚀 Initializing Sync...")
     lc = fetch_leetcode()
     problems = read_csv()
+    if not problems:
+        print("⚠️ No problems found in CSV. Check file path or content.")
+    
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(build_readme(problems, lc))
     print("✅ Build Complete!")
