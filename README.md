@@ -33,7 +33,7 @@
 | Objective | Mastery Progress (Animated) | Current Status |
 | :--- | :--- | :---: |
 | **Striver A2Z Sheet** | ![Progress](https://geps.dev/progress/19?successColor=58a6ff&warningColor=ffff00&dangerColor=ff0000) | `⚡ __vikram: 19%` |
-| **LeetCode 500+** | ![Progress](https://geps.dev/progress/20?successColor=ffa116&warningColor=ffff00&dangerColor=ff0000) | `🧩 Solved: 104` |
+| **LeetCode 500+** | ![Progress](https://geps.dev/progress/21?successColor=ffa116&warningColor=ffff00&dangerColor=ff0000) | `🧩 Solved: 105` |
 | **CF Rating 1200** | ![WIP](https://img.shields.io/badge/Targeting-1200-eb4034?style=flat-square&logo=target) | `🏆 Active` |
 
 ## 🕒 Recent Activity (Last 2 Days)
@@ -46,4 +46,4 @@
 | [[A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A)](#) | Codeforces | `800` | 06 Apr |
 
 
-<div align="center">**System Last Sync:** `08 Apr 2026 | 02:44 PM IST`</div>
+<div align="center">**System Last Sync:** `08 Apr 2026 | 06:50 PM IST`</div>
