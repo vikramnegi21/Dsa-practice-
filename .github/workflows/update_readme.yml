@@ -1,40 +1,36 @@
-name: Update DSA Dashboard
+name: Update DSA README
 
 on:
   push:
     paths:
-      - "problems.csv"
+      - 'problems.csv'
   schedule:
-    - cron: "0 18 * * *"
+    - cron: '0 18 * * *'   # Daily 11:30 PM IST (18:00 UTC)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Generate README + heatmap
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Run generator
         run: python generate_readme.py
 
-      - name: Commit and push
+      - name: Commit & Push
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md heatmap.svg
-          git diff --cached --quiet || git commit -m "chore: auto-update dashboard $(date +'%d %b %Y')"
+          git diff --staged --quiet || git commit -m "🔄 Auto-update DSA progress [$(date +'%d %b %Y, %H:%M UTC')]"
           git push
