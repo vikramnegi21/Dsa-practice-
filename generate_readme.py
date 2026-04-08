@@ -5,6 +5,7 @@ from collections import defaultdict
 # --- CONFIG ---
 LEETCODE_USER = "__vikram21"
 CF_USER       = "__vikram21"
+STRIVER_NAME  = "__vikram" # Updated as per your sheet name
 GITHUB_USER   = "vikramnegi21"
 GMAIL         = "vikramnegi0021@gmail.com"
 CSV_FILE      = "problems.csv"
@@ -26,7 +27,7 @@ def fetch_leetcode():
                 "hard": d.get("hardSolved", 0)
             }
     except: pass
-    return {"total": 0, "ranking": "N/A", "easy": 0, "medium": 0, "hard": 0}
+    return {"total": 104, "ranking": "N/A", "easy": 0, "medium": 0, "hard": 0} # Fallback to 104
 
 def read_csv():
     rows = []
@@ -40,8 +41,11 @@ def read_csv():
 
 def parse_date(s):
     if not s: return None
-    for fmt in ["%Y-%m-%d","%d %b %Y","%d-%m-%Y"]:
-        try: return datetime.strptime(s.strip(), fmt).date()
+    for fmt in ["%Y-%m-%d", "%d %b %Y", "%d %b", "%d-%m-%Y", "%b %d, %Y"]:
+        try:
+            d = datetime.strptime(s.strip(), fmt)
+            if d.year == 1900: d = d.replace(year=date.today().year)
+            return d.date()
         except: continue
     return None
 
@@ -50,80 +54,82 @@ def make_heatmap(problems):
     for p in problems:
         d = parse_date(p.get("Date"))
         if d: date_counts[d] += 1
+    
     today = date.today()
-    weeks = 20
+    weeks = 22
     start = today - timedelta(days=today.weekday() + 1 + (weeks - 1) * 7)
-    cell, gap = 12, 3
+    cell, gap = 14, 3
     step = cell + gap
-    w, h = weeks * step + 40, 7 * step + 40
+    w, h = weeks * step + 60, 7 * step + 50
+    
     cells = []
     for week in range(weeks):
         for dow in range(7):
             day = start + timedelta(weeks=week, days=dow)
-            x, y = 30 + week * step, 20 + dow * step
+            x, y = 40 + week * step, 30 + dow * step
             if day > today: color = "#0d1117"
             else:
                 cnt = date_counts.get(day, 0)
-                color = "#161b22" if cnt==0 else "#0e4429" if cnt==1 else "#006d32" if cnt==2 else "#26a641" if cnt<=4 else "#39d353"
-                cells.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{color}"><title>{day}: {cnt} problems</title></rect>')
-    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"><rect width="100%" height="100%" fill="#0d1117" rx="6"/><text x="10" y="15" fill="#8b949e" font-size="10" font-family="monospace">Practice Heatmap</text>{"".join(cells)}</svg>'
+                if cnt == 0: color = "#161b22"
+                elif cnt == 1: color = "#0e4429"
+                elif cnt == 2: color = "#006d32"
+                elif cnt <= 4: color = "#26a641"
+                else: color = "#39d353"
+            cells.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{color}"></rect>')
+    
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">
+    <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+    <text x="20" y="20" fill="#58a6ff" font-size="12" font-family="monospace" font-weight="bold">COMMIT ENGINE: STREAK ACTIVE</text>
+    {"".join(cells)}</svg>'''
 
-def get_pbar(done, total):
-    percent = min(round((done / total) * 100, 1), 100)
-    filled = int(percent / 5)
-    return f"`{'█' * filled}{'░' * (20 - filled)}` **{percent}%**"
+def get_tgda_progress(percent, color="39d353"):
+    return f"![Progress](https://geps.dev/progress/{int(percent)}?successColor={color}&warningColor=f1c40f&dangerColor=ff4b4b)"
 
 def build_readme(problems, lc):
     now_ist = datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)
-    total_csv = len(problems)
     
-    # Links
-    lc_link = f"https://leetcode.com/{LEETCODE_USER}"
-    cf_link = f"https://codeforces.com/profile/{CF_USER}"
-    mail_link = f"mailto:{GMAIL}"
+    # Progress Calcs
+    striver_progress = 19 # Updated to 19%
+    lc_solved = max(lc['total'], 104)
+    lc_percent = (lc_solved / 500) * 100
 
-    # Header (Original Style + Animated)
-    header = "https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0d2137,100:0d1117&height=180&section=header&text=DSA%20Forge&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=%E2%9A%94%EF%B8%8F%20Vikram%20Negi%20%7C%20CSE%20Undergrad%20%7C%20Code%20Daily&descAlignY=62&descColor=c9d1d9&stroke=21262d&strokeWidth=1"
+    header = "https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0d2137,100:0d1117&height=180&section=header&text=DSA%20FORGE%20v3&fontSize=65&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=%F0%9F%9A%80%20Vikram%20Negi%20%7C%20Leveling%20Up%20Daily&descAlignY=62&descColor=c9d1d9&stroke=21262d&strokeWidth=1"
 
     L = [
         f'<div align="center">\n\n![]({header})\n\n',
-        f'[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)]({lc_link})',
-        f'[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)]({cf_link})',
-        f'[![Gmail](https://img.shields.io/badge/Gmail-Connect-D14836?style=for-the-badge&logo=gmail&logoColor=white)]({mail_link})\n\n',
+        f'[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/{LEETCODE_USER})',
+        f'[![Codeforces](https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/{CF_USER})',
+        f'[![Gmail](https://img.shields.io/badge/Gmail-Connect-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:{GMAIL})\n\n',
         '</div>\n\n---',
-        "\n## 📈 Profile Stats",
+        "\n## ⚡ Engine Stats",
         '<div align="center">',
-        f'<img src="https://github-readme-stats.vercel.app/api?username={GITHUB_USER}&show_icons=true&theme=github_dark&hide_border=true" height="160" />',
-        f'<img src="https://github-readme-streak-stats.herokuapp.com/?user={GITHUB_USER}&theme=github_dark&hide_border=true" height="160" />',
+        f'<img src="https://github-readme-stats.vercel.app/api?username={GITHUB_USER}&show_icons=true&theme=tokyonight&hide_border=true" height="165" />',
+        f'<img src="https://github-readme-streak-stats.herokuapp.com/?user={GITHUB_USER}&theme=tokyonight&hide_border=true" height="165" />',
         '</div>\n',
-        "## 🧩 LeetCode Mastery",
-        f'<div align="center">\n<img src="https://leetcard.jacoblin.cool/{LEETCODE_USER}?theme=dark&font=Karma&ext=heatmap&border=0" width="90%" />\n</div>\n',
-        "## 🔥 Practice Heatmap",
+        "## 🔥 Consistency Graph",
         '<div align="center">\n\n![Heatmap](heatmap.svg)\n\n</div>\n',
-        "## 🎯 Current Targets",
-        "| Target Objective | Progress | Status |",
+        "## 🎯 Strategic Targets",
+        "| Objective | Mastery Level | Tracking |",
         "| :--- | :--- | :---: |",
-        f"| **Striver A2Z Sheet** | {get_pbar(total_csv, 455)} | 🚀 Grinding |",
-        f"| **LeetCode 500+ Solves** | {get_pbar(lc['total'], 500)} | 🧩 {lc['total']}/500 |",
-        f"| **CF Rating 1200+** | `In Progress` | 🏆 Competitive |",
-        "\n## 🕒 Recent Activity (2 Days)",
+        f"| **Striver A2Z Sheet** | {get_tgda_progress(striver_progress, '58a6ff')} | `⚡ {STRIVER_NAME}: {striver_progress}%` |",
+        f"| **LeetCode 500+** | {get_tgda_progress(lc_percent, 'ffa116')} | `🧩 Solved: {lc_solved}` |",
+        f"| **CF Rating 1200** | ![WIP](https://img.shields.io/badge/Work_In_Progress-eb4034?style=flat-square) | `🏆 Active` |",
+        "\n## 🕒 Recent Activity (Last 2 Days)",
         "| Problem | Platform | Difficulty | Date |",
         "| :--- | :--- | :---: | :---: |"
     ]
 
     sorted_probs = sorted(problems, key=lambda x: parse_date(x.get("Date", "")) or date.min, reverse=True)
     cutoff = date.today() - timedelta(days=2)
-    
     count = 0
     for p in sorted_probs:
         p_date = parse_date(p.get("Date"))
         if (p_date and p_date >= cutoff) or count < 5:
-            name, link = p.get("Problem", "N/A"), p.get("Link", "#")
-            L.append(f"| [{name}]({link}) | {p.get('Platform')} | `{p.get('Difficulty')}` | {p.get('Date')} |")
+            L.append(f"| [{p.get('Problem')}]({p.get('Link', '#')}) | {p.get('Platform')} | `{p.get('Difficulty')}` | {p.get('Date')} |")
             count += 1
-            if count >= 8: break # Maximum 8 entries to keep it clean
+            if count >= 8: break
 
-    L.append(f'\n\n<div align="center">**System Sync:** `{now_ist.strftime("%d %b %Y | %I:%M %p")} IST`</div>')
+    L.append(f'\n\n<div align="center">**System Last Sync:** `{now_ist.strftime("%d %b %Y | %I:%M %p IST")}`</div>')
     return "\n".join(L)
 
 def main():
@@ -131,7 +137,7 @@ def main():
     problems = read_csv()
     with open(HEATMAP_FILE, "w", encoding="utf-8") as f: f.write(make_heatmap(problems))
     with open(README_FILE, "w", encoding="utf-8") as f: f.write(build_readme(problems, lc))
-    print("✅ Dashboard Updated!")
+    print("✅ System Updated!")
 
 if __name__ == "__main__":
     main()
