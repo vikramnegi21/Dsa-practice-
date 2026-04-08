@@ -1,36 +1,32 @@
-name: Update DSA README
+name: Generate Readme
 
 on:
-  push:
-    paths:
-      - 'problems.csv'
   schedule:
-    - cron: '0 18 * * *'   # Daily 11:30 PM IST (18:00 UTC)
+    - cron: '0 */6 * * *' # Har 6 ghante mein chalega
   workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches:
+      - main
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
-      - name: Run generator
-        run: python generate_readme.py
+      - name: Run Script
+        run: python main.py
 
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md heatmap.svg
-          git diff --staged --quiet || git commit -m "🔄 Auto-update DSA progress [$(date +'%d %b %Y, %H:%M UTC')]"
-          git push
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto Update Stats" && git push)
+          
