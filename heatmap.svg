@@ -9,12 +9,10 @@
 <text x="268" y="22" font-family="Segoe UI" font-size="9" fill="#484f58">Feb</text>
 <text x="332" y="22" font-family="Segoe UI" font-size="9" fill="#484f58">Mar</text>
 <text x="412" y="22" font-family="Segoe UI" font-size="9" fill="#484f58">Apr</text>
-
-  <text x="2" y="55" font-family="Segoe UI" font-size="9" fill="#484f58">Mon</text>
+<text x="2" y="55" font-family="Segoe UI" font-size="9" fill="#484f58">Mon</text>
 <text x="2" y="87" font-family="Segoe UI" font-size="9" fill="#484f58">Wed</text>
 <text x="2" y="119" font-family="Segoe UI" font-size="9" fill="#484f58">Fri</text>
-
-  <rect x="28" y="28" width="13" height="13" rx="3" fill="#161b22"><title>26 Oct: 0 problems</title></rect>
+<rect x="28" y="28" width="13" height="13" rx="3" fill="#161b22"><title>26 Oct: 0 problems</title></rect>
 <rect x="44" y="28" width="13" height="13" rx="3" fill="#161b22"><title>27 Oct: 0 problems</title></rect>
 <rect x="44" y="44" width="13" height="13" rx="3" fill="#161b22"><title>28 Oct: 0 problems</title></rect>
 <rect x="44" y="60" width="13" height="13" rx="3" fill="#161b22"><title>29 Oct: 0 problems</title></rect>
