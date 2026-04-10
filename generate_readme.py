@@ -42,7 +42,7 @@ def read_csv():
     rows = []
     if not os.path.exists(CSV_FILE): return []
     try:
-        with open(CSV_FILE, newline='', encoding='utf-8') as f:
+        with open(CSV_FILE, newline='', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             for r in reader:
                 clean_r = {str(k).strip(): str(v).strip() for k, v in r.items() if k}
@@ -52,12 +52,11 @@ def read_csv():
 
 def parse_date(s):
     if not s: return None
-    # Support for "24 Mar" and other formats
     formats = ["%d %b", "%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%d %b %Y"]
     for fmt in formats:
         try:
             dt = datetime.strptime(s.strip(), fmt)
-            # Agar format "24 Mar" hai toh year 1900 dikhayega, use 2026 kar do
+            # Fix: "24 Mar" default year 1900 ko 2026 mein badlo
             if dt.year == 1900:
                 dt = dt.replace(year=2026) 
             return dt.date()
@@ -94,10 +93,7 @@ def generate_heatmap_svg(problems):
             if d > today: color = "transparent"
             else:
                 c = counts.get(d, 0)
-                if c == 0: color = "#161b22"
-                else:
-                    t = c / max_c
-                    color = "#0e4429" if t < 0.25 else "#006d32" if t < 0.5 else "#26a641" if t < 0.75 else "#39d353"
+                color = "#161b22" if c == 0 else ("#0e4429" if (c/max_c) < 0.25 else "#006d32" if (c/max_c) < 0.5 else "#26a641" if (c/max_c) < 0.75 else "#39d353")
             
             x, y = PAD_L + ci*(CELL+GAP), PAD_T + ri*(CELL+GAP)
             if color != "transparent":
@@ -132,10 +128,8 @@ def main():
     problems = read_csv()
     lc = fetch_leetcode_stats()
     streak = max(fetch_leetcode_streak(), FALLBACK_STREAK)
-    
     generate_heatmap_svg(problems)
     generate_targets_svg(lc['total'], streak)
-
     now = (datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)).strftime("%d %b %Y | %I:%M %p IST")
     header = f"https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=230&section=header&text=DSA%20FORGE%20v4&fontSize=78&fontColor=58a6ff&animation=twinkling&desc=Vikram%20Negi%20%7C%20Code%20.%20Survive%20.%20Win&descSize=18"
     
@@ -154,8 +148,6 @@ def main():
         '---\n\n## Goals & Targets\n<div align="center"><img src="targets.svg" width="100%" /></div>\n\n',
         f'---\n<div align="center">`Last Sync : {now}`</div>'
     ]
-    
     with open(README_FILE, "w", encoding="utf-8") as f: f.write("".join(content))
 
 if __name__ == "__main__": main()
-    
