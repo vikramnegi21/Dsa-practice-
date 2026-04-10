@@ -3,10 +3,10 @@ name: DSA Forge Pro Sync
 on:
   push:
     paths:
-      - "problems.csv" # Jaise hi CSV update hogi, heatmap aur targets change ho jayenge
-  workflow_dispatch:  # Manual button se bhi chala sakte ho
+      - "problems.csv"
+  workflow_dispatch:
   schedule:
-    - cron: "30 18 * * *" # Roj raat ko automatic update hoga
+    - cron: "30 18 * * *"
 
 permissions:
   contents: write
@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Pura history fetch karega conflicts hatane ke liye
 
       - uses: actions/setup-python@v5
         with:
@@ -28,7 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Teeno cheezein add karni zaroori hain heatmap aur targets ke liye
           git add README.md heatmap.svg targets.svg
-          git diff --cached --quiet || (git commit -m "chore: update animated dsa stats" && git push)
+          git diff --cached --quiet || (git pull --rebase origin main && git commit -m "chore: update dsa stats" && git push)
           
