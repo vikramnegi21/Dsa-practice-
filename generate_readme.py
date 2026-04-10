@@ -35,49 +35,42 @@ def fetch_leetcode_streak():
         req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0", "Referer": "https://leetcode.com"})
         with urllib.request.urlopen(req, timeout=12) as r:
             data = json.loads(r.read())
-        s = int(data["data"]["matchedUser"]["userCalendar"]["streak"])
-        print(f"[OK] LC Streak: {s}")
-        return s
+        return int(data["data"]["matchedUser"]["userCalendar"]["streak"])
     except: return 0
 
 def read_csv():
     rows = []
-    if not os.path.exists(CSV_FILE): 
-        print(f"[ERR] {CSV_FILE} not found!")
-        return []
+    if not os.path.exists(CSV_FILE): return []
     try:
         with open(CSV_FILE, newline='', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for r in reader:
                 clean_r = {str(k).strip(): str(v).strip() for k, v in r.items() if k}
                 if any(clean_r.values()): rows.append(clean_r)
-        print(f"[OK] Read {len(rows)} problems from CSV.")
-    except Exception as e: print(f"[ERR] CSV: {e}")
+    except: pass
     return rows
 
 def parse_date(s):
     if not s: return None
-    for fmt in ["%Y-%m-%d", "%d %b %Y", "%d %b", "%d-%m-%Y", "%b %d, %Y"]:
-        try: return datetime.strptime(s.strip(), fmt).date()
+    # Support for "24 Mar" and other formats
+    formats = ["%d %b", "%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y", "%d %b %Y"]
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(s.strip(), fmt)
+            # Agar format "24 Mar" hai toh year 1900 dikhayega, use 2026 kar do
+            if dt.year == 1900:
+                dt = dt.replace(year=2026) 
+            return dt.date()
         except: continue
     return None
 
 def generate_heatmap_svg(problems):
     counts = defaultdict(int)
     for p in problems:
-        # Aggressive Date Column Detection
-        dt_val = None
-        for key in p.keys():
-            if 'date' in key.lower():
-                dt_val = p[key]
-                break
-        
+        dt_val = p.get('Date') or p.get('date')
         d = parse_date(dt_val)
         if d: counts[d] += 1
     
-    if not counts: print("[WARN] No valid dates found for Heatmap!")
-    else: print(f"[OK] Heatmap found {len(counts)} active days.")
-
     today = date.today()
     end_date = today + timedelta(days=((6 - (today.weekday() + 1) % 7)))
     start_date = end_date - timedelta(weeks=24) + timedelta(days=1)
@@ -98,12 +91,19 @@ def generate_heatmap_svg(problems):
     for ci, wk in enumerate(grid):
         delay = f"{round(0.02 * ci, 3)}s"
         for ri, d in enumerate(wk):
-            if d > today: continue
-            x, y, c = PAD_L + ci*(CELL+GAP), PAD_T + ri*(CELL+GAP), counts.get(d, 0)
-            color = "#161b22" if c == 0 else ("#0e4429" if (c/max_c) < 0.25 else "#006d32" if (c/max_c) < 0.5 else "#26a641" if (c/max_c) < 0.75 else "#39d353")
-            cells += f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{color}" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{delay}" fill="freeze"/><title>{d}: {c} solved</title></rect>\n'
+            if d > today: color = "transparent"
+            else:
+                c = counts.get(d, 0)
+                if c == 0: color = "#161b22"
+                else:
+                    t = c / max_c
+                    color = "#0e4429" if t < 0.25 else "#006d32" if t < 0.5 else "#26a641" if t < 0.75 else "#39d353"
+            
+            x, y = PAD_L + ci*(CELL+GAP), PAD_T + ri*(CELL+GAP)
+            if color != "transparent":
+                cells += f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{color}" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{delay}" fill="freeze"/><title>{d}: {counts.get(d,0)} solved</title></rect>\n'
 
-    svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"><rect width="100%" height="100%" rx="12" fill="#0d1117"/><text x="{W//2}" y="17" font-family="monospace" font-size="10" fill="#3fb950" text-anchor="middle">DSA ACTIVITY // LAST 24 WEEKS</text>{cells}</svg>'
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"><rect width="100%" height="100%" rx="12" fill="#0d1117"/><text x="{W//2}" y="17" font-family="monospace" font-size="10" font-weight="700" fill="#3fb950" text-anchor="middle">DSA ACTIVITY // LAST 24 WEEKS</text>{cells}</svg>'
     with open("heatmap.svg", "w", encoding="utf-8") as f: f.write(svg)
 
 def generate_targets_svg(lc_solved, cur_streak):
@@ -120,12 +120,12 @@ def generate_targets_svg(lc_solved, cur_streak):
     bars = ""
     for i, (lab, txt, pct, clr, y) in enumerate(rows):
         bw, delay = max(8, round(pct/100*BAR_MAX)), f"{round(0.3*i, 1)}s"
-        bars += f'<text x="{BAR_X-5}" y="{y-12}" font-family="monospace" font-size="10" fill="{clr}" text-anchor="end">{lab}</text>'
-        bars += f'<text x="{BAR_X+BAR_MAX}" y="{y-12}" font-family="monospace" font-size="11" fill="{clr}" text-anchor="end">{txt} ({pct}%)</text>'
+        bars += f'<text x="{BAR_X-5}" y="{y-12}" font-family="monospace" font-size="10" font-weight="700" fill="{clr}" text-anchor="end">{lab}</text>'
+        bars += f'<text x="{BAR_X+BAR_MAX}" y="{y-12}" font-family="monospace" font-size="11" font-weight="700" fill="{clr}" text-anchor="end">{txt} ({pct}%)</text>'
         bars += f'<rect x="{BAR_X}" y="{y}" width="{BAR_MAX}" height="12" rx="6" fill="#1e1e2e"/>'
         bars += f'<rect x="{BAR_X}" y="{y}" width="0" height="12" rx="6" fill="{clr}"><animate attributeName="width" from="0" to="{bw}" dur="1.4s" begin="{delay}" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.6 1"/></rect>'
 
-    svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"><rect width="100%" height="100%" rx="14" fill="#11111b"/><text x="{W//2}" y="30" font-family="monospace" font-size="11" fill="#585b70" text-anchor="middle">// GOALS &amp; TARGETS //</text>{bars}</svg>'
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"><rect width="100%" height="100%" rx="14" fill="#11111b"/><text x="{W//2}" y="30" font-family="monospace" font-size="11" font-weight="700" fill="#585b70" text-anchor="middle">// GOALS &amp; TARGETS //</text>{bars}</svg>'
     with open("targets.svg", "w", encoding="utf-8") as f: f.write(svg)
 
 def main():
