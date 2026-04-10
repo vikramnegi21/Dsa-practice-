@@ -1,29 +1,41 @@
-name: DSA Dashboard Sync
+name: DSA Forge Advanced Sync
 
 on:
   push:
     paths:
-      - "problems.csv"
-  workflow_dispatch:
+      - "problems.csv" # Trigger whenever problems are added/modified
+  workflow_dispatch:          # manual trigger from GitHub UI
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "30 18 * * *"    # daily at 00:00 IST (18:30 UTC)
+
+permissions:
+  contents: write
 
 jobs:
-  update:
+  sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Run Generator
-        run: python generate_data.py
-      - name: Commit & Push
+
+      # Install dependencies if you add them, but urllib is built-in
+      # - name: Install dependencies
+      #   run: pip install requests
+
+      - name: Run generate_readme.py
+        run: python generate_readme.py
+
+      - name: Commit & push updated files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add data.json
-          git diff --cached --quiet || (git commit -m "update: dash stats" && git push)
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md heatmap.svg targets.svg
+          git diff --cached --quiet || git commit -m "chore: fully advanced DSA stats portfolio [skip ci]"
+          git push
           
