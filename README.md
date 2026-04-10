@@ -4,7 +4,7 @@
 
 [![Gmail](https://img.shields.io/badge/GMAIL-vikramnegi0021-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikramnegi0021@gmail.com)&nbsp;&nbsp;[![LeetCode](https://img.shields.io/badge/LEETCODE-__vikram21-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/__vikram21)
 
-[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-69%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
+[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/CURRENT%20STREAK-70%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
 
 </div>
 
@@ -64,21 +64,21 @@
 
 | # | Problem | Platform | Difficulty | Date |
 |:-:|:--------|:--------:|:----------:|:----:|
-| 1 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 09 Apr |
-| 2 | [A. Buttons](https://codeforces.com/problemset/problem/1858/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-2ecc71?style=flat-square) | 09 Apr |
-| 3 | [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 07 Apr |
-| 4 | [A. Sequence Game](https://codeforces.com/problemset/problem/1862/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-2ecc71?style=flat-square) | 07 Apr |
-| 5 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 06 Apr |
-| 6 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 06 Apr |
-| 7 | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-2ecc71?style=flat-square) | 06 Apr |
-| 8 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Easy](https://img.shields.io/badge/Easy-2ecc71?style=flat-square&logoColor=black) | 05 Apr |
-| 9 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 05 Apr |
-| 10 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-f39c12?style=flat-square&logoColor=black) | 05 Apr |
+| 1 | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 09 Apr |
+| 2 | [A. Buttons](https://codeforces.com/problemset/problem/1858/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-a6e3a1?style=flat-square) | 09 Apr |
+| 3 | [Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 07 Apr |
+| 4 | [A. Sequence Game](https://codeforces.com/problemset/problem/1862/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-a6e3a1?style=flat-square) | 07 Apr |
+| 5 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 06 Apr |
+| 6 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 06 Apr |
+| 7 | [A. Ambitious Kid](https://codeforces.com/problemset/problem/1866/A) | ![CF](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) | ![800](https://img.shields.io/badge/CF%20800-a6e3a1?style=flat-square) | 06 Apr |
+| 8 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Easy](https://img.shields.io/badge/Easy-a6e3a1?style=flat-square) | 05 Apr |
+| 9 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 05 Apr |
+| 10 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ![LC](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black) | ![Med](https://img.shields.io/badge/Medium-fab387?style=flat-square) | 05 Apr |
 
 ---
 
 <div align="center">
 
-`Last Sync : 10 Apr 2026  |  01:15 AM IST`
+`Last Sync : 10 Apr 2026  |  06:58 PM IST`
 
 </div>
