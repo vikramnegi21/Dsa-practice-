@@ -2,7 +2,7 @@
     "striver_done": 39,
     "striver_total": 455,
     "lc_streak": 70,
-    "last_updated": "10 Apr 2026 | 07:07 PM IST",
+    "last_updated": "10 Apr 2026 | 07:11 PM",
     "recent": [
         {
             "Date": "09 Apr",
@@ -66,22 +66,6 @@
             "Platform": "Codeforces",
             "Difficulty": "800",
             "Topic": "Matrix",
-            "Status": "Done"
-        },
-        {
-            "Date": "05 Apr",
-            "Problem": "[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)",
-            "Platform": "LeetCode",
-            "Difficulty": "Medium",
-            "Topic": "Array",
-            "Status": "Done"
-        },
-        {
-            "Date": "05 Apr",
-            "Problem": "[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)",
-            "Platform": "LeetCode",
-            "Difficulty": "Medium",
-            "Topic": "String",
             "Status": "Done"
         }
     ]
