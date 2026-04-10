@@ -3,10 +3,10 @@ name: DSA Forge Pro Sync
 on:
   push:
     paths:
-      - "problems.csv"
-  workflow_dispatch:
+      - "problems.csv" # Jaise hi CSV update karoge, sync ho jayega
+  workflow_dispatch:  # Manual button ke liye
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "30 18 * * *" # Roj raat ko 12:00 AM IST par apne aap chalega (2-day table fix ke liye)
 
 permissions:
   contents: write
@@ -30,14 +30,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # README aur dono animated SVGs add karna
           git add README.md heatmap.svg targets.svg
           
-          # Only proceed if there are changes
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update animated dsa stats"
+            git commit -m "chore: auto-sync dsa stats"
             git pull --rebase origin main
             git push origin main
           else
-            echo "No changes to sync."
+            echo "No changes found to sync."
           fi
           
