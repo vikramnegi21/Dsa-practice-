@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Forge Dashboard</title>
+    <style>
+        :root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9; --blue: #58a6ff; --green: #238636; --orange: #ff7b00; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: auto; }
+        header { text-align: center; border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 25px; text-align: center; }
+        .progress-box { background: #30363d; height: 12px; border-radius: 10px; margin: 20px 0; overflow: hidden; }
+        #bar { background: var(--green); height: 100%; width: 0%; transition: 1.5s ease-in-out; }
+        .streak-num { font-size: 4rem; font-weight: bold; color: var(--orange); }
+        table { width: 100%; border-collapse: collapse; margin-top: 30px; background: var(--card); border-radius: 12px; overflow: hidden; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid var(--border); }
+        th { color: var(--blue); background: #1f242c; }
+        .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
+        .easy { background: #23863633; color: #39d353; }
+        .medium { background: #d2992233; color: #d29922; }
+        .hard { background: #f8514933; color: #f85149; }
+        a { color: var(--blue); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DSA FORGE <span style="color:var(--blue)">v4.0</span></h1>
+            <div id="sync-time" style="font-family:monospace; color:#8b949e">Loading data...</div>
+        </header>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Striver A2Z Sheet</h3>
+                <div class="progress-box"><div id="bar"></div></div>
+                <h2 id="s-count">0 / 455</h2>
+                <p id="s-pct" style="color:var(--blue)">0%</p>
+            </div>
+            <div class="card">
+                <h3>LeetCode Streak</h3>
+                <div id="streak" class="streak-num">0</div>
+                <p>Days Unstoppable 🔥</p>
+            </div>
+        </div>
+
+        <h2 style="margin-top:40px">Recent Activity</h2>
+        <table>
+            <thead><tr><th>Problem</th><th>Platform</th><th>Difficulty</th></tr></thead>
+            <tbody id="t-body"></tbody>
+        </table>
+    </div>
+
+    <script>
+        fetch('data.json').then(r => r.json()).then(d => {
+            const pct = ((d.striver_done / d.striver_total) * 100).toFixed(1);
+            document.getElementById('bar').style.width = pct + '%';
+            document.getElementById('s-count').innerText = `${d.striver_done} / ${d.striver_total}`;
+            document.getElementById('s-pct').innerText = `${pct}% Completed`;
+            document.getElementById('streak').innerText = d.lc_streak;
+            document.getElementById('sync-time').innerText = `LAST SYNC: ${d.last_updated}`;
+            
+            document.getElementById('t-body').innerHTML = d.recent.map(p => `
+                <tr>
+                    <td><a href="${p.Link}" target="_blank">${p.Problem}</a></td>
+                    <td>${p.Platform}</td>
+                    <td><span class="badge ${p.Difficulty.toLowerCase()}">${p.Difficulty}</span></td>
+                </tr>
+            `).join('');
+        }).catch(() => { document.getElementById('sync-time').innerText = "Run GitHub Action first!"; });
+    </script>
+</body>
+</html>
