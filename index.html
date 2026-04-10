@@ -3,72 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSA Forge Dashboard</title>
+    <title>DSA Forge | Vikram Negi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
-        :root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9; --blue: #58a6ff; --green: #238636; --orange: #ff7b00; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; padding: 20px; }
-        .container { max-width: 1000px; margin: auto; }
-        header { text-align: center; border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 30px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 25px; text-align: center; }
-        .progress-box { background: #30363d; height: 12px; border-radius: 10px; margin: 20px 0; overflow: hidden; }
-        #bar { background: var(--green); height: 100%; width: 0%; transition: 1.5s ease-in-out; }
-        .streak-num { font-size: 4rem; font-weight: bold; color: var(--orange); }
-        table { width: 100%; border-collapse: collapse; margin-top: 30px; background: var(--card); border-radius: 12px; overflow: hidden; }
-        th, td { padding: 15px; text-align: left; border-bottom: 1px solid var(--border); }
-        th { color: var(--blue); background: #1f242c; }
-        .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
-        .easy { background: #23863633; color: #39d353; }
-        .medium { background: #d2992233; color: #d29922; }
-        .hard { background: #f8514933; color: #f85149; }
-        a { color: var(--blue); text-decoration: none; }
+        :root { --bg: #05070a; --card: #0f172a; --accent: #38bdf8; --green: #22c55e; --orange: #f59e0b; --text: #f1f5f9; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Space Grotesk', sans-serif; }
+        body { background: var(--bg); color: var(--text); overflow-x: hidden; min-height: 100vh; padding: 40px 20px; }
+        
+        /* Animated Background */
+        body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% 50%, #1e293b 0%, #05070a 100%); z-index: -1; }
+
+        .container { max-width: 1000px; margin: auto; animation: fadeIn 1s ease-out; }
+        
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { font-size: 3.5rem; letter-spacing: -2px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .sync-tag { font-family: monospace; opacity: 0.6; margin-top: 10px; font-size: 0.9rem; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
+        
+        .card { background: var(--card); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; padding: 30px; position: relative; overflow: hidden; backdrop-filter: blur(10px); transition: 0.4s; }
+        .card:hover { transform: translateY(-10px); border-color: var(--accent); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+
+        /* Neon Progress Bar */
+        .progress-container { background: rgba(255,255,255,0.05); height: 16px; border-radius: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1); }
+        #bar { height: 100%; width: 0%; border-radius: 20px; background: linear-gradient(90deg, #38bdf8, #22c55e); box-shadow: 0 0 15px rgba(56, 189, 248, 0.5); transition: 2s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+        .big-num { font-size: 4.5rem; font-weight: 700; line-height: 1; margin: 10px 0; color: var(--orange); text-shadow: 0 0 30px rgba(245, 158, 11, 0.3); }
+        
+        table { width: 100%; border-collapse: separate; border-spacing: 0 10px; margin-top: 40px; }
+        th { padding: 15px; text-align: left; opacity: 0.5; font-weight: 400; }
+        td { background: rgba(255,255,255,0.03); padding: 18px; transition: 0.3s; }
+        tr:hover td { background: rgba(255,255,255,0.08); color: var(--accent); }
+        td:first-child { border-radius: 12px 0 0 12px; }
+        td:last-child { border-radius: 0 12px 12px 0; }
+
+        .badge { padding: 5px 12px; border-radius: 8px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+        .easy { background: #22c55e20; color: #22c55e; border: 1px solid #22c55e40; }
+        .medium { background: #f59e0b20; color: #f59e0b; border: 1px solid #f59e0b40; }
+        .hard { background: #ef444420; color: #ef4444; border: 1px solid #ef444440; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        a { color: inherit; text-decoration: none; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>DSA FORGE <span style="color:var(--blue)">v4.0</span></h1>
-            <div id="sync-time" style="font-family:monospace; color:#8b949e">Loading data...</div>
+            <h1>DSA FORGE <span style="font-weight: 300;">v4.0</span></h1>
+            <div id="sync" class="sync-tag">INITIALIZING DATA...</div>
         </header>
 
         <div class="grid">
             <div class="card">
-                <h3>Striver A2Z Sheet</h3>
-                <div class="progress-box"><div id="bar"></div></div>
-                <h2 id="s-count">0 / 455</h2>
-                <p id="s-pct" style="color:var(--blue)">0%</p>
+                <h3>Striver A2Z Progress</h3>
+                <div class="progress-container"><div id="bar"></div></div>
+                <h2 id="s-done" style="font-size: 2.5rem;">0</h2>
+                <p id="s-pct" style="color: var(--accent);">0% Completed</p>
             </div>
+
             <div class="card">
                 <h3>LeetCode Streak</h3>
-                <div id="streak" class="streak-num">0</div>
-                <p>Days Unstoppable 🔥</p>
+                <div id="streak" class="big-num">0</div>
+                <p>Days Burning 🔥</p>
             </div>
         </div>
 
-        <h2 style="margin-top:40px">Recent Activity</h2>
+        <h2 style="margin-top: 60px; font-size: 2rem;">Recent Missions</h2>
         <table>
-            <thead><tr><th>Problem</th><th>Platform</th><th>Difficulty</th></tr></thead>
-            <tbody id="t-body"></tbody>
+            <thead><tr><th>PROBLEM</th><th>PLATFORM</th><th>STATUS</th></tr></thead>
+            <tbody id="rows"></tbody>
         </table>
     </div>
 
     <script>
         fetch('data.json').then(r => r.json()).then(d => {
             const pct = ((d.striver_done / d.striver_total) * 100).toFixed(1);
-            document.getElementById('bar').style.width = pct + '%';
-            document.getElementById('s-count').innerText = `${d.striver_done} / ${d.striver_total}`;
-            document.getElementById('s-pct').innerText = `${pct}% Completed`;
-            document.getElementById('streak').innerText = d.lc_streak;
-            document.getElementById('sync-time').innerText = `LAST SYNC: ${d.last_updated}`;
+            setTimeout(() => { document.getElementById('bar').style.width = pct + '%'; }, 300);
             
-            document.getElementById('t-body').innerHTML = d.recent.map(p => `
-                <tr>
+            document.getElementById('s-done').innerText = `${d.striver_done} / ${d.striver_total}`;
+            document.getElementById('s-pct').innerText = `${pct}% of Striver Sheet`;
+            document.getElementById('streak').innerText = d.lc_streak;
+            document.getElementById('sync').innerText = `SYSTEM ONLINE // LAST SYNC: ${d.last_updated}`;
+            
+            document.getElementById('rows').innerHTML = d.recent.map((p, i) => `
+                <tr style="animation: fadeIn 0.5s ease-out ${i*0.1}s both">
                     <td><a href="${p.Link}" target="_blank">${p.Problem}</a></td>
-                    <td>${p.Platform}</td>
+                    <td style="opacity:0.7">${p.Platform}</td>
                     <td><span class="badge ${p.Difficulty.toLowerCase()}">${p.Difficulty}</span></td>
                 </tr>
             `).join('');
-        }).catch(() => { document.getElementById('sync-time').innerText = "Run GitHub Action first!"; });
+        });
     </script>
 </body>
 </html>
