@@ -6,7 +6,7 @@ on:
       - "problems.csv"
   workflow_dispatch:
   schedule:
-    - cron: "0 19 * * *" # Daily sync
+    - cron: "0 19 * * *"
 
 jobs:
   update:
@@ -25,5 +25,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions@users.noreply.github.com"
           git add data.json
-          git diff --cached --quiet || (git commit -m "update: dashboard data" && git push)
+          git diff --cached --quiet || (git commit -m "update: dash stats" && git push)
           
