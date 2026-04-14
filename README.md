@@ -4,7 +4,7 @@
 
 [![Gmail](https://img.shields.io/badge/GMAIL-vikramnegi0021-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikramnegi0021@gmail.com)&nbsp;&nbsp;[![LeetCode](https://img.shields.io/badge/LEETCODE-__vikram21-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/__vikram21)
 
-[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-73%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
+[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-74%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
 
 </div>
 
@@ -36,12 +36,10 @@
 
 | # | Problem | Platform | Difficulty | Date |
 |:---:|:---|:---:|:---:|:---:|
-| 1 | [A. Grasshopper on a Line](https://codeforces.com/problemset/problem/1843/A) | `Codeforces` | <font color='green'>**800**</font> | `13 Apr` |
-| 2 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | `LeetCode` | <font color='green'>**Easy**</font> | `13 Apr` |
-| 3 | [A. Forbidden Integer](https://codeforces.com/problemset/problem/1845/A) | `Codeforces` | <font color='green'>**800**</font> | `12 Apr` |
-| 4 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | `LeetCode` | <font color='orange'>**Medium**</font> | `12 Apr` |
-| 5 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | `LeetCode` | <font color='orange'>**Medium**</font> | `12 Apr` |
+| 1 | A. Unit Array | `Codeforces` | <font color='green'>**800**</font> | `14 Apr` |
+| 2 | [A. Grasshopper on a Line](https://codeforces.com/problemset/problem/1843/A) | `Codeforces` | <font color='green'>**800**</font> | `13 Apr` |
+| 3 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | `LeetCode` | <font color='green'>**Easy**</font> | `13 Apr` |
 
 
 ---
-<div align="center">`Last Sync : 14 Apr 2026 | 01:16 AM IST`</div>
+<div align="center">`Last Sync : 14 Apr 2026 | 09:20 PM IST`</div>
