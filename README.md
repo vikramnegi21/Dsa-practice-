@@ -36,10 +36,10 @@
 
 | # | Problem | Platform | Difficulty | Date |
 |:---:|:---|:---:|:---:|:---:|
-| 1 | A. Unit Array | `Codeforces` | <font color='green'>**800**</font> | `14 Apr` |
+| 1 | [A. Unit Array](https://codeforces.com/problemset/problem/1834/A) | `Codeforces` | <font color='green'>**800**</font> | `14 Apr` |
 | 2 | [A. Grasshopper on a Line](https://codeforces.com/problemset/problem/1843/A) | `Codeforces` | <font color='green'>**800**</font> | `13 Apr` |
 | 3 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | `LeetCode` | <font color='green'>**Easy**</font> | `13 Apr` |
 
 
 ---
-<div align="center">`Last Sync : 14 Apr 2026 | 09:20 PM IST`</div>
+<div align="center">`Last Sync : 14 Apr 2026 | 09:21 PM IST`</div>
