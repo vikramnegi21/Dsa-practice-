@@ -4,7 +4,7 @@
 
 [![Gmail](https://img.shields.io/badge/GMAIL-vikramnegi0021-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikramnegi0021@gmail.com)&nbsp;&nbsp;[![LeetCode](https://img.shields.io/badge/LEETCODE-__vikram21-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/__vikram21)
 
-[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-76%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
+[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-77%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
 
 </div>
 
@@ -34,12 +34,7 @@
 
 ## Recent Activity (Last 2 Days)
 
-| # | Problem | Platform | Difficulty | Date |
-|:---:|:---|:---:|:---:|:---:|
-| 1 | [A. Coins](https://codeforces.com/problemset/problem/1814/A) | `Codeforces` | <font color='green'>**800**</font> | `16 Apr` |
-| 2 | [Closest Equal Element Queries](https://leetcode.com/problems/closest-equal-element-queries/) | `LeetCode` | <font color='orange'>**Medium**</font> | `16 Apr` |
-| 3 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | `LeetCode` | <font color='orange'>**Medium**</font> | `16 Apr` |
-
+> **No activity logged in the last 48 hours.** Keep grinding! 🚀
 
 ---
-<div align="center">`Last Sync : 17 Apr 2026 | 01:14 AM IST`</div>
+<div align="center">`Last Sync : 17 Apr 2026 | 10:29 PM IST`</div>
