@@ -60,3 +60,5 @@ Date,Problem,Platform,Difficulty,Topic,Status
 21 May,"[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)",LeetCode,Easy,Stack,Done
 21 May,"[Minimum Common Value](https://leetcode.com/problems/minimum-common-value/)",LeetCode,Easy,Two_Pointers,Done
 21 May,"[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/)",LeetCode,Easy,Array,Done
+24 May,"[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)",LeetCode,Easy,Array,Done
+24 May,"[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)",LeetCode,Easy,Array,Done
