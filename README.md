@@ -4,7 +4,7 @@
 
 [![Gmail](https://img.shields.io/badge/GMAIL-vikramnegi0021-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vikramnegi0021@gmail.com)&nbsp;&nbsp;[![LeetCode](https://img.shields.io/badge/LEETCODE-__vikram21-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/__vikram21)
 
-[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-125%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
+[![Codeforces](https://img.shields.io/badge/CODEFORCES-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/__vikram21)&nbsp;&nbsp;[![Streak](https://img.shields.io/badge/STREAK-126%20DAYS-FF7B00?style=for-the-badge&logo=fire&logoColor=white)](https://leetcode.com/__vikram21)
 
 </div>
 
@@ -37,4 +37,4 @@
 > **No activity logged in the last 48 hours.** Keep grinding! 🚀
 
 ---
-<div align="center">`Last Sync : 05 Jun 2026 | 02:01 AM IST`</div>
+<div align="center">`Last Sync : 06 Jun 2026 | 01:53 AM IST`</div>
