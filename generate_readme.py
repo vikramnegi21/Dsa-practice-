@@ -57,7 +57,7 @@ def parse_date(s):
     for fmt in formats:
         try:
             dt = datetime.strptime(s.strip(), fmt)
-            if dt.year == 1900: dt = dt.replace(year=2026) 
+            if dt.year == 1900: dt = dt.replace(year=datetime.now().year)
             return dt.date()
         except: continue
     return None
