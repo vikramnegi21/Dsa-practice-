@@ -1,9 +1,6 @@
 <div align="center">
 
-# 🚀 DSA Forge
-
-### Daily grind through Data Structures, Algorithms & Competitive Programming
-Following **Striver's A2Z Sheet** • Building consistency, one problem at a time.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=DSA%20Forge&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Consistent%20practice%20%E2%80%A2%20Striver's%20A2Z%20%E2%80%A2%20CP&descAlignY=58&descSize=16" />
 
 <br/>
 
@@ -14,7 +11,22 @@ Following **Striver's A2Z Sheet** • Building consistency, one problem at a tim
   <img src="https://img.shields.io/badge/Codeforces-__vikram21-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
 </a>
 
+<br/><br/>
+
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/DSA-Striver's%20A2Z-6C63FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Focus-Web%20Dev%20%2B%20DSA-2ea44f?style=flat-square" />
+
 </div>
+
+<br/>
+
+## 🎯 Goals
+
+- [ ] Striver's A2Z Sheet — 455 problems
+- [ ] 500+ LeetCode problems solved
+- [ ] Codeforces rating 1000+
+- [ ] Land a Web Development internship
 
 <br/>
 
@@ -44,7 +56,7 @@ Following **Striver's A2Z Sheet** • Building consistency, one problem at a tim
 
 ## 📈 Progress Stats
 
-_Auto-generated from [`problems/problems.csv`](./problems/problems.csv)_
+_Auto-generated from [`problems/problems.csv`](./problems/problems.csv) — edit the CSV, this section updates itself._
 
 <!--STATS_START-->
 
@@ -55,5 +67,9 @@ _Run the workflow once to populate this section._
 <br/>
 
 <div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
+
 <i>Consistency beats intensity. 🔥</i>
+
 </div>
