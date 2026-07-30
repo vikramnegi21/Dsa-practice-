@@ -89,13 +89,15 @@ _Run the workflow once to populate this section._
 
 
 
-**Total Problems Solved: 0**
+**Total Problems Solved: 2**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
+| 2026-07-30 | Minimum Number of Pushes to Type Word I | Easy | LeetCode | [Solve](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
+| 2026-07-30 | Remove Outermost Parentheses | Easy | LeetCode | [Solve](https://leetcode.com/problems/remove-outermost-parentheses/) |
 
 </details>
 <!-- CHART_END -->
