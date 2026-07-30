@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from datetime import datetime
 
 CSV_FILE = "problems.csv"
 README_FILE = "README.md"
@@ -75,19 +76,12 @@ def build_table(df, n=15):
 
 def build_section(df):
     total = len(df)
+    ts = int(datetime.now().timestamp())
     section = f"""{START_MARKER}
 ## 📈 Progress Chart
 
-
-
-![Progress](assets/progress_chart.png)
-
-
-
-
-![Platform Split](assets/platform_chart.png)
-
-
+![Progress](assets/progress_chart.png?t={ts})
+![Platform Split](assets/platform_chart.png?t={ts})
 
 **Total Problems Solved: {total}**
 
@@ -121,3 +115,4 @@ if __name__ == "__main__":
     section = build_section(df)
     update_readme(section)
     print("README updated successfully.")
+    
