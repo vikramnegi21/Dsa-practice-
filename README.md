@@ -73,3 +73,29 @@ _Run the workflow once to populate this section._
 <i>Consistency beats intensity. 🔥</i>
 
 </div>
+
+
+<!-- CHART_START -->
+## 📈 Progress Chart
+
+
+
+![Progress](assets/progress_chart.png)
+
+
+
+
+![Platform Split](assets/platform_chart.png)
+
+
+
+**Total Problems Solved: 0**
+
+<details>
+<summary>🕒 Recent Submissions (click to expand)</summary>
+
+| Date | Problem | Difficulty | Platform | Link |
+|---|---|---|---|---|
+
+</details>
+<!-- CHART_END -->
