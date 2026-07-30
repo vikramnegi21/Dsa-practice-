@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "problems.csv"
+      - "scripts/generate_readme.py"
   workflow_dispatch:
 
 jobs:
