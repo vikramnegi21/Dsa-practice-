@@ -17,11 +17,22 @@ def load_data():
 
 def generate_chart(df):
     os.makedirs("assets", exist_ok=True)
+
+    if df.empty:
+        plt.figure(figsize=(10, 4))
+        plt.text(0.5, 0.5, "No problems logged yet", ha="center", va="center")
+        plt.axis("off")
+        plt.savefig(CHART_FILE, dpi=150)
+        plt.close()
+        return
+
     daily = df.groupby(df["date"].dt.date).size().cumsum()
+    x = pd.to_datetime(daily.index)
+    y = daily.values.astype(float)
 
     plt.figure(figsize=(10, 4))
-    plt.plot(daily.index, daily.values, marker="o", color="#1F8ACB", linewidth=2)
-    plt.fill_between(daily.index, daily.values, alpha=0.1, color="#1F8ACB")
+    plt.plot(x, y, marker="o", color="#1F8ACB", linewidth=2)
+    plt.fill_between(x, y, alpha=0.1, color="#1F8ACB")
     plt.title("Problems Solved Over Time", fontsize=13, fontweight="bold")
     plt.xlabel("Date")
     plt.ylabel("Cumulative Problems")
@@ -32,6 +43,14 @@ def generate_chart(df):
     plt.close()
 
 def generate_platform_chart(df):
+    if df.empty:
+        plt.figure(figsize=(5, 5))
+        plt.text(0.5, 0.5, "No data yet", ha="center", va="center")
+        plt.axis("off")
+        plt.savefig("assets/platform_chart.png", dpi=150)
+        plt.close()
+        return
+
     counts = df["platform"].value_counts()
     plt.figure(figsize=(5, 5))
     plt.pie(counts.values, labels=counts.index, autopct="%1.1f%%",
@@ -59,8 +78,16 @@ def build_section(df):
     section = f"""{START_MARKER}
 ## 📈 Progress Chart
 
+
+
 ![Progress](assets/progress_chart.png)
+
+
+
+
 ![Platform Split](assets/platform_chart.png)
+
+
 
 **Total Problems Solved: {total}**
 
@@ -94,4 +121,3 @@ if __name__ == "__main__":
     section = build_section(df)
     update_readme(section)
     print("README updated successfully.")
-    
