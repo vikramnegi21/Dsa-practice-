@@ -64,9 +64,12 @@ def build_section(df):
 
 **Total Problems Solved: {total}**
 
-### 🕒 Recent Submissions
+<details>
+<summary>🕒 Recent Submissions (click to expand)</summary>
 
 {build_table(df)}
+
+</details>
 {END_MARKER}"""
     return section
 
