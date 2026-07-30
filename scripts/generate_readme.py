@@ -1,96 +1,94 @@
-"""
-generate_readme.py
--------------------
-Reads problems/problems.csv aur README.md ke andar do markers
-(<!--STATS_START--> ... <!--STATS_END-->) ke beech ka hissa
-naye stats se replace kar deta hai.
-"""
-
-import csv
+import pandas as pd
+import matplotlib.pyplot as plt
 import os
-from collections import Counter
-from datetime import datetime
 
-CSV_PATH = "problems/problems.csv"
-README_PATH = "README.md"
-START_MARKER = "<!--STATS_START-->"
-END_MARKER = "<!--STATS_END-->"
+CSV_FILE = "problems.csv"
+README_FILE = "README.md"
+CHART_FILE = "assets/progress_chart.png"
 
+START_MARKER = "<!-- CHART_START -->"
+END_MARKER = "<!-- CHART_END -->"
 
-def load_problems():
-    if not os.path.exists(CSV_PATH):
-        return []
-    with open(CSV_PATH, newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+def load_data():
+    df = pd.read_csv(CSV_FILE)
+    df["date"] = pd.to_datetime(df["date"])
+    df = df.sort_values("date")
+    return df
 
+def generate_chart(df):
+    os.makedirs("assets", exist_ok=True)
+    daily = df.groupby(df["date"].dt.date).size().cumsum()
 
-def build_stats_block(problems):
-    total = len(problems)
-    diff_count = Counter(p["Difficulty"].strip() for p in problems if p.get("Difficulty"))
-    topic_count = Counter(p["Topic"].strip() for p in problems if p.get("Topic"))
-    platform_count = Counter(p["Platform"].strip() for p in problems if p.get("Platform"))
+    plt.figure(figsize=(10, 4))
+    plt.plot(daily.index, daily.values, marker="o", color="#1F8ACB", linewidth=2)
+    plt.fill_between(daily.index, daily.values, alpha=0.1, color="#1F8ACB")
+    plt.title("Problems Solved Over Time", fontsize=13, fontweight="bold")
+    plt.xlabel("Date")
+    plt.ylabel("Cumulative Problems")
+    plt.grid(alpha=0.3)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(CHART_FILE, dpi=150)
+    plt.close()
 
-    lines = []
-    lines.append(f"**Total Problems Solved:** `{total}`\n")
+def generate_platform_chart(df):
+    counts = df["platform"].value_counts()
+    plt.figure(figsize=(5, 5))
+    plt.pie(counts.values, labels=counts.index, autopct="%1.1f%%",
+            colors=["#FFA116", "#1F8ACB", "#6C63FF"])
+    plt.title("Problems by Platform")
+    plt.tight_layout()
+    plt.savefig("assets/platform_chart.png", dpi=150)
+    plt.close()
 
-    lines.append("| Difficulty | Count |")
-    lines.append("|---|---|")
-    for level in ["Easy", "Medium", "Hard"]:
-        lines.append(f"| {level} | {diff_count.get(level, 0)} |")
-    lines.append("")
-
-    lines.append("**Platform-wise:**")
-    lines.append("| Platform | Count |")
-    lines.append("|---|---|")
-    for plat, cnt in platform_count.most_common():
-        lines.append(f"| {plat} | {cnt} |")
-    lines.append("")
-
-    lines.append("**Top Topics:**")
-    lines.append("| Topic | Count |")
-    lines.append("|---|---|")
-    for topic, cnt in topic_count.most_common(8):
-        lines.append(f"| {topic} | {cnt} |")
-    lines.append("")
-
-    recent = problems[-10:][::-1]
-    lines.append("**Recently Solved:**")
-    lines.append("| Date | Problem | Difficulty | Platform |")
-    lines.append("|---|---|---|---|")
-    for p in recent:
-        link = p.get("Link", "").strip()
-        name = p.get("Problem", "").strip()
-        problem_cell = f"[{name}]({link})" if link else name
-        lines.append(f"| {p.get('Date','')} | {problem_cell} | {p.get('Difficulty','')} | {p.get('Platform','')} |")
-
-    lines.append("")
-    lines.append(f"_Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_")
-
+def build_table(df, n=15):
+    recent = df.sort_values("date", ascending=False).head(n)
+    lines = [
+        "| Date | Problem | Difficulty | Platform | Link |",
+        "|---|---|---|---|---|",
+    ]
+    for _, row in recent.iterrows():
+        lines.append(
+            f"| {row['date'].date()} | {row['problem_name']} | {row['difficulty']} | "
+            f"{row['platform']} | [Solve]({row['link']}) |"
+        )
     return "\n".join(lines)
 
+def build_section(df):
+    total = len(df)
+    section = f"""{START_MARKER}
+## 📈 Progress Chart
 
-def update_readme(stats_block):
-    with open(README_PATH, encoding="utf-8") as f:
+![Progress](assets/progress_chart.png)
+![Platform Split](assets/platform_chart.png)
+
+**Total Problems Solved: {total}**
+
+### 🕒 Recent Submissions
+
+{build_table(df)}
+{END_MARKER}"""
+    return section
+
+def update_readme(section):
+    with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
-    start_idx = content.find(START_MARKER)
-    end_idx = content.find(END_MARKER)
+    if START_MARKER in content and END_MARKER in content:
+        before = content.split(START_MARKER)[0]
+        after = content.split(END_MARKER)[1]
+        new_content = before + section + after
+    else:
+        new_content = content + "\n\n" + section
 
-    if start_idx == -1 or end_idx == -1:
-        raise ValueError("README.md me STATS_START / STATS_END markers nahi mile.")
-
-    new_content = (
-        content[: start_idx + len(START_MARKER)]
-        + "\n\n" + stats_block + "\n\n"
-        + content[end_idx:]
-    )
-
-    with open(README_PATH, "w", encoding="utf-8") as f:
+    with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-
 if __name__ == "__main__":
-    problems = load_problems()
-    stats_block = build_stats_block(problems)
-    update_readme(stats_block)
-    print("README.md updated successfully.")
+    df = load_data()
+    generate_chart(df)
+    generate_platform_chart(df)
+    section = build_section(df)
+    update_readme(section)
+    print("README updated successfully.")
+    
