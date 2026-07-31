@@ -1,3 +1,5 @@
 date,problem_name,difficulty,link,platform
 2026-07-30,Minimum Number of Pushes to Type Word I,Easy,https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/,LeetCode
 2026-07-30,Remove Outermost Parentheses,Easy,https://leetcode.com/problems/remove-outermost-parentheses/,LeetCode
+2026-07-31,Sort Characters By Frequency,Medium,Hash Table,https://leetcode.com/problems/sort-characters-by-frequency/,LeetCode
+2026-07-31,Sliding Window Maximum,Hard,Heap/Sliding Window,https://leetcode.com/problems/sliding-window-maximum/,LeetCode
