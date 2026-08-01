@@ -78,16 +78,20 @@ _Run the workflow once to populate this section._
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1785429840)
-![Platform Split](assets/platform_chart.png?t=1785429840)
+![Progress](assets/progress_chart.png?t=1785603983)
+![Platform Split](assets/platform_chart.png?t=1785603983)
 
-**Total Problems Solved: 2**
+**Total Problems Solved: 6**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
+| 2026-08-01 | Next Greater Element I | Easy | LeetCode | [Solve](https://leetcode.com/problems/next-greater-element-i/) |
+| 2026-08-01 | Next Greater Element II | Medium | LeetCode | [Solve](https://leetcode.com/problems/next-greater-element-ii/) |
+| 2026-07-31 | Sort Characters By Frequency | Medium | LeetCode | [Solve](https://leetcode.com/problems/sort-characters-by-frequency/) |
+| 2026-07-31 | Sliding Window Maximum | Hard | LeetCode | [Solve](https://leetcode.com/problems/sliding-window-maximum/) |
 | 2026-07-30 | Minimum Number of Pushes to Type Word I | Easy | LeetCode | [Solve](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
 | 2026-07-30 | Remove Outermost Parentheses | Easy | LeetCode | [Solve](https://leetcode.com/problems/remove-outermost-parentheses/) |
 
