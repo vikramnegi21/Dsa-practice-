@@ -78,16 +78,20 @@ _Run the workflow once to populate this section._
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1785603983)
-![Platform Split](assets/platform_chart.png?t=1785603983)
+![Progress](assets/progress_chart.png?t=1785693508)
+![Platform Split](assets/platform_chart.png?t=1785693508)
 
-**Total Problems Solved: 6**
+**Total Problems Solved: 10**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
+| 2026-08-02 | Binary Tree Inorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
+| 2026-08-02 | Binary Tree Preorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
+| 2026-08-02 | Binary Tree Postorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
+| 2026-08-02 | Binary Tree Level Order Traversal | Medium | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
 | 2026-08-01 | Next Greater Element I | Easy | LeetCode | [Solve](https://leetcode.com/problems/next-greater-element-i/) |
 | 2026-08-01 | Next Greater Element II | Medium | LeetCode | [Solve](https://leetcode.com/problems/next-greater-element-ii/) |
 | 2026-07-31 | Sort Characters By Frequency | Medium | LeetCode | [Solve](https://leetcode.com/problems/sort-characters-by-frequency/) |
