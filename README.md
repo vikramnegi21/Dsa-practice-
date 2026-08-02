@@ -54,32 +54,19 @@
 
 <br/>
 
-## 📈 Progress Stats
-
-_Auto-generated from [`problems/problems.csv`](./problems/problems.csv) — edit the CSV, this section updates itself._
-
-<!--STATS_START-->
-
-_Run the workflow once to populate this section._
-
-<!--STATS_END-->
-
-<br/>
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
-
-<i>Consistency beats intensity. 🔥</i>
-
-</div>
-
-
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
+
+
 ![Progress](assets/progress_chart.png?t=1785695352)
+
+
+
+
 ![Platform Split](assets/platform_chart.png?t=1785695352)
+
+
 
 **Total Problems Solved: 10**
 
@@ -101,3 +88,11 @@ _Run the workflow once to populate this section._
 
 </details>
 <!-- CHART_END -->
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
+
+<i>Consistency beats intensity. 🔥</i>
+
+</div>
