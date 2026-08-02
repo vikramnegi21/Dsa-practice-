@@ -78,8 +78,8 @@ _Run the workflow once to populate this section._
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1785693869)
-![Platform Split](assets/platform_chart.png?t=1785693869)
+![Progress](assets/progress_chart.png?t=1785695352)
+![Platform Split](assets/platform_chart.png?t=1785695352)
 
 **Total Problems Solved: 10**
 
