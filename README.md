@@ -30,13 +30,7 @@
 
 <br/>
 
-## 📊 LeetCode Activity
 
-<div align="center">
-
-<a href="https://leetcode.com/u/__vikram21/" target="_blank">
-  <img src="https://leetcard.jacoblin.cool/__vikram21?theme=dark&font=baloo2&ext=heatmap" />
-</a>
 
 </div>
 
