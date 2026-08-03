@@ -9,5 +9,5 @@ date,problem_name,difficulty,link,platform
 2026-08-02,Binary Tree Preorder Traversal,Easy,https://leetcode.com/problems/binary-tree-preorder-traversal/,LeetCode
 2026-08-02,Binary Tree Postorder Traversal,Easy,https://leetcode.com/problems/binary-tree-postorder-traversal/,LeetCode
 2026-08-02,Binary Tree Level Order Traversal,Medium,https://leetcode.com/problems/binary-tree-level-order-traversal/,LeetCode
-2026-08-03,Maximum Depth of Binary Tree,Easy,Tree/DFS,https://leetcode.com/problems/maximum-depth-of-binary-tree/,LeetCode
+2026-08-03,Maximum Depth of Binary Tree,Easy,Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree/,LeetCode
 2026-08-03,Minimum Size Subarray Sum,Medium,Sliding Window,https://leetcode.com/problems/minimum-size-subarray-sum/,LeetCode
