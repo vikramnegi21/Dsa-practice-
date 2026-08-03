@@ -36,15 +36,7 @@
 
 <br/>
 
-## ⚔️ Codeforces Activity
 
-<div align="center">
-
-<a href="https://codeforces.com/profile/__vikram21" target="_blank">
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=__vikram21" />
-</a>
-
-</div>
 
 <br/>
 
