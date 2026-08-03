@@ -57,24 +57,18 @@
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
+![Progress](assets/progress_chart.png?t=1785781881)
+![Platform Split](assets/platform_chart.png?t=1785781881)
 
-
-![Progress](assets/progress_chart.png?t=1785695352)
-
-
-
-
-![Platform Split](assets/platform_chart.png?t=1785695352)
-
-
-
-**Total Problems Solved: 10**
+**Total Problems Solved: 12**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
+| 2026-08-03 | Maximum Depth of Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
+| 2026-08-03 | Minimum Size Subarray Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/minimum-size-subarray-sum/) |
 | 2026-08-02 | Binary Tree Inorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
 | 2026-08-02 | Binary Tree Preorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-preorder-traversal/) |
 | 2026-08-02 | Binary Tree Postorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
