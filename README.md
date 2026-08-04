@@ -43,16 +43,19 @@
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1785781881)
-![Platform Split](assets/platform_chart.png?t=1785781881)
+![Progress](assets/progress_chart.png?t=1785865059)
+![Platform Split](assets/platform_chart.png?t=1785865059)
 
-**Total Problems Solved: 12**
+**Total Problems Solved: 15**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
+| 2026-08-04 | Find Missing Elements | Easy | LeetCode | [Solve](https://leetcode.com/problems/find-missing-elements/) |
+| 2026-08-04 | Balanced Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/balanced-binary-tree/) |
+| 2026-08-04 | Merge Strings Alternately | Easy | LeetCode | [Solve](https://leetcode.com/problems/merge-strings-alternately/) |
 | 2026-08-03 | Maximum Depth of Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | 2026-08-03 | Minimum Size Subarray Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/minimum-size-subarray-sum/) |
 | 2026-08-02 | Binary Tree Inorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
