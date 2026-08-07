@@ -43,8 +43,8 @@
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1786126893)
-![Platform Split](assets/platform_chart.png?t=1786126893)
+![Progress](assets/progress_chart.png?t=1786126967)
+![Platform Split](assets/platform_chart.png?t=1786126967)
 
 **Total Problems Solved: 17**
 
@@ -53,7 +53,7 @@
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
-| 2026-08-05 | Binary Tree Zigzag Level Order Traversal | Medium | nan | [Solve](https) |
+| 2026-08-05 | Binary Tree Zigzag Level Order Traversal | Medium | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 | 2026-08-05 | Diameter of Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/diameter-of-binary-tree/) |
 | 2026-08-04 | Merge Strings Alternately | Easy | LeetCode | [Solve](https://leetcode.com/problems/merge-strings-alternately/) |
 | 2026-08-04 | Balanced Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/balanced-binary-tree/) |
