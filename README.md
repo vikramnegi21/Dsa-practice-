@@ -43,8 +43,8 @@
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1786554074)
-![Platform Split](assets/platform_chart.png?t=1786554074)
+![Progress](assets/progress_chart.png?t=1786554257)
+![Platform Split](assets/platform_chart.png?t=1786554257)
 
 **Total Problems Solved: 22**
 
@@ -53,7 +53,7 @@
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
-| 2026-08-05 | Length of Longest Subarray With at Most K Frequency | Medium | nan | [Solve](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-) |
+| 2026-08-05 | Smallest Missing Integer Greater Than Sequential Prefix Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 | 2026-08-05 | Smallest Missing Integer Greater Than Sequential Prefix Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 | 2026-08-05 | Vertical Order Traversal of a Binary Tree | Hard | LeetCode | [Solve](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) |
 | 2026-08-05 | Minimum Total Price After Applying Discounts | Medium | LeetCode | [Solve](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) |
