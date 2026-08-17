@@ -43,31 +43,31 @@
 <!-- CHART_START -->
 ## 📈 Progress Chart
 
-![Progress](assets/progress_chart.png?t=1786818610)
-![Platform Split](assets/platform_chart.png?t=1786818610)
+![Progress](assets/progress_chart.png?t=1786990481)
+![Platform Split](assets/platform_chart.png?t=1786990481)
 
-**Total Problems Solved: 23**
+**Total Problems Solved: 24**
 
 <details>
 <summary>🕒 Recent Submissions (click to expand)</summary>
 
 | Date | Problem | Difficulty | Platform | Link |
 |---|---|---|---|---|
-| 2026-08-05 | Elevator Requests I | Easy | LeetCode | [Solve](https://leetcode.com/problems/elevator-requests-i/) |
+| 2026-08-05 | Product of Array Except Self | Medium | LeetCode | [Solve](https://leetcode.com/problems/product-of-array-except-self/) |
+| 2026-08-05 | Smallest Missing Integer Greater Than Sequential Prefix Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 | 2026-08-05 | Smallest Missing Integer Greater Than Sequential Prefix Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 | 2026-08-05 | Vertical Order Traversal of a Binary Tree | Hard | LeetCode | [Solve](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) |
 | 2026-08-05 | Minimum Total Price After Applying Discounts | Medium | LeetCode | [Solve](https://leetcode.com/problems/minimum-total-price-after-applying-discounts/) |
 | 2026-08-05 | Check If It Is a Straight Line | Easy | LeetCode | [Solve](https://leetcode.com/problems/check-if-it-is-a-straight-line/) |
 | 2026-08-05 | Binary Tree Zigzag Level Order Traversal | Medium | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 | 2026-08-05 | Diameter of Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/diameter-of-binary-tree/) |
-| 2026-08-05 | Smallest Missing Integer Greater Than Sequential Prefix Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) |
-| 2026-08-04 | Find Missing Elements | Easy | LeetCode | [Solve](https://leetcode.com/problems/find-missing-elements/) |
-| 2026-08-04 | Merge Strings Alternately | Easy | LeetCode | [Solve](https://leetcode.com/problems/merge-strings-alternately/) |
+| 2026-08-05 | Elevator Requests I | Easy | LeetCode | [Solve](https://leetcode.com/problems/elevator-requests-i/) |
 | 2026-08-04 | Balanced Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/balanced-binary-tree/) |
+| 2026-08-04 | Merge Strings Alternately | Easy | LeetCode | [Solve](https://leetcode.com/problems/merge-strings-alternately/) |
+| 2026-08-04 | Find Missing Elements | Easy | LeetCode | [Solve](https://leetcode.com/problems/find-missing-elements/) |
 | 2026-08-03 | Maximum Depth of Binary Tree | Easy | LeetCode | [Solve](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
 | 2026-08-03 | Minimum Size Subarray Sum | Medium | LeetCode | [Solve](https://leetcode.com/problems/minimum-size-subarray-sum/) |
 | 2026-08-02 | Binary Tree Level Order Traversal | Medium | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
-| 2026-08-02 | Binary Tree Postorder Traversal | Easy | LeetCode | [Solve](https://leetcode.com/problems/binary-tree-postorder-traversal/) |
 
 </details>
 <!-- CHART_END -->
