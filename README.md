@@ -79,3 +79,15 @@
 <i>Consistency beats intensity. 🔥</i>
 
 </div>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
+<!---LeetCode Topics End-->
