@@ -95,9 +95,14 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0670-maximum-swap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0670-maximum-swap/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1386-cinema-seat-allocation/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1386-cinema-seat-allocation/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0670-maximum-swap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0670-maximum-swap/) | Medium |
 <!---LeetCode Topics End-->
