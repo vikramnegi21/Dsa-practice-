@@ -86,6 +86,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3471-find-the-largest-almost-missing-integer/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -105,4 +106,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0670-maximum-swap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0670-maximum-swap/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 <!---LeetCode Topics End-->
