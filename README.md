@@ -116,4 +116,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1903-largest-odd-number-in-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1903-largest-odd-number-in-string/) | Easy |
+| [2264-largest-3-same-digit-number-in-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2264-largest-3-same-digit-number-in-string/) | Easy |
 <!---LeetCode Topics End-->
