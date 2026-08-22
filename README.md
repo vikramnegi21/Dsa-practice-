@@ -108,6 +108,7 @@
 | ------- | ------- |
 | [0670-maximum-swap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0670-maximum-swap/) | Medium |
 | [1903-largest-odd-number-in-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1903-largest-odd-number-in-string/) | Easy |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
