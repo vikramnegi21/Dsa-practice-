@@ -118,4 +118,20 @@
 | ------- | ------- |
 | [1903-largest-odd-number-in-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1903-largest-odd-number-in-string/) | Easy |
 | [2264-largest-3-same-digit-number-in-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2264-largest-3-same-digit-number-in-string/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
 <!---LeetCode Topics End-->
