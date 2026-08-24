@@ -125,21 +125,25 @@
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
