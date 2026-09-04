@@ -36,6 +36,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
+| [3903-smallest-stable-index-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3903-smallest-stable-index-i/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -99,4 +100,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3903-smallest-stable-index-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3903-smallest-stable-index-i/) | Easy |
 <!---LeetCode Topics End-->
