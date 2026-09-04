@@ -46,6 +46,7 @@
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -57,6 +58,7 @@
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -65,6 +67,7 @@
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -90,6 +93,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0098-validate-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 ## Breadth-First Search
