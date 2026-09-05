@@ -52,6 +52,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -65,6 +66,7 @@
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -78,6 +80,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -134,9 +137,18 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0173-binary-search-tree-iterator/) | Medium |
 <!---LeetCode Topics End-->
