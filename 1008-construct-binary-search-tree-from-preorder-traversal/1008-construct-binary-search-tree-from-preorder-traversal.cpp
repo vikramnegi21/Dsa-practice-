@@ -12,32 +12,23 @@
 class Solution {
 public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-    TreeNode*root=new TreeNode(preorder[0]);
-    for(int i=1;i<preorder.size();i++){
-        TreeNode*curr=root;
-        TreeNode*node=new TreeNode(preorder[i]);
-        while(true){
-            if(curr->val>node->val){
-                if(curr->left==NULL){
-                    curr->left=node;
-                    break;
-                }
-                curr=curr->left;;
-
-            }
-            else{
-                 if(curr->right==NULL){
-                    curr->right=node;
-                    break;
-                }
-                curr=curr->right;
-            }
-        }
         
-
-
+        int i =0;
+        return solve(preorder,i,INT_MAX);
     }
+
+
+TreeNode*solve(vector<int>& preorder,int &i,int bound ){
+
+
+    if(i>=preorder.size()||preorder[i]>bound){
+        return  NULL;
+    }
+    TreeNode*root=new TreeNode(preorder[i]);
+    i++;
+    root->left=solve(preorder,i,root->val);
+    root->right=solve(preorder,i,bound);
     return root;
-        
-    }
+}
 };
+    
