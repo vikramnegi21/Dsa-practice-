@@ -36,6 +36,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3903-smallest-stable-index-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3904-smallest-stable-index-ii/) | Medium |
@@ -165,4 +166,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 <!---LeetCode Topics End-->
