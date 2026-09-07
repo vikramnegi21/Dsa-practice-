@@ -35,6 +35,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
@@ -46,6 +47,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -173,5 +175,14 @@
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 <!---LeetCode Topics End-->
