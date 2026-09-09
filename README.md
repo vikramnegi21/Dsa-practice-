@@ -38,6 +38,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1046-last-stone-weight](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1046-last-stone-weight/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
@@ -186,6 +187,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [1046-last-stone-weight](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1046-last-stone-weight/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Sorting
