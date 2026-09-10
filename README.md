@@ -71,6 +71,7 @@
 | [0701-insert-into-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -103,6 +104,7 @@
 | [0701-insert-into-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -131,6 +133,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
