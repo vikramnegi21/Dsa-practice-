@@ -12,25 +12,10 @@
 class Solution {
 public:
 int summ(TreeNode*root,int &count){
-    if (root == NULL) return 0;
+    if(root==NULL) return 0;
+    count++;
+   return  root->val +summ(root->left,count)+summ(root->right,count);
     
-    stack<TreeNode*>q;
-    int sum=0;
-    q. push(root);
-    while(!q.empty()){
-        int n=q.size();
-        TreeNode*curr=q.top();
-        q.pop();
-        sum+=curr->val;
-        count++;
-        if(curr->left!=NULL){
-            q.push(curr->left);
-        }
-        if(curr->right!=NULL){
-            q.push(curr->right);
-        }
-    }
-    return sum;
     
 
     }
