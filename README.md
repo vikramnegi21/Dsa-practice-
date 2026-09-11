@@ -43,6 +43,7 @@
 | [1046-last-stone-weight](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1046-last-stone-weight/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
+| [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3903-smallest-stable-index-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3904-smallest-stable-index-ii/) | Medium |
@@ -124,6 +125,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
+| [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -224,4 +226,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0561-array-partition](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0561-array-partition/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 <!---LeetCode Topics End-->
