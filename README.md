@@ -43,6 +43,7 @@
 | [1046-last-stone-weight](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1046-last-stone-weight/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [2094-finding-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2094-finding-3-digit-even-numbers/) | Easy |
+| [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 | [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
@@ -185,6 +186,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
+| [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -200,6 +202,7 @@
 | [0506-relative-ranks](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0506-relative-ranks/) | Easy |
 | [1046-last-stone-weight](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1046-last-stone-weight/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -239,4 +242,8 @@
 | ------- | ------- |
 | [2094-finding-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2094-finding-3-digit-even-numbers/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
 <!---LeetCode Topics End-->
