@@ -148,6 +148,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0836-rectangle-overlap/) | Easy |
 | [3870-count-commas-in-range](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3870-count-commas-in-range/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Prefix Sum
@@ -246,4 +247,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0836-rectangle-overlap/) | Easy |
 <!---LeetCode Topics End-->
