@@ -137,12 +137,14 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0547-number-of-provinces](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 ## Math
@@ -251,4 +253,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0836-rectangle-overlap/) | Easy |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0547-number-of-provinces/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
