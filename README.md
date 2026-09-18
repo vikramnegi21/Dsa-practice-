@@ -31,6 +31,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0011-container-with-most-water/) | Medium |
 | [0014-longest-common-prefix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0014-longest-common-prefix/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
@@ -188,11 +189,13 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0011-container-with-most-water/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [2462-total-cost-to-hire-k-workers](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2462-total-cost-to-hire-k-workers/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0011-container-with-most-water/) | Medium |
 | [0561-array-partition](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0561-array-partition/) | Easy |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1962-remove-stones-to-minimize-the-total/) | Medium |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2530-maximal-score-after-applying-k-operations/) | Medium |
