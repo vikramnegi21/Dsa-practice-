@@ -38,13 +38,20 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0733-flood-fill](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0994-rotting-oranges/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0733-flood-fill](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0994-rotting-oranges/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0733-flood-fill](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0994-rotting-oranges/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0733-flood-fill/) | Easy |
 <!---LeetCode Topics End-->
