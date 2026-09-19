@@ -3,6 +3,7 @@ public:
     int orangesRotting(vector<vector<int>>& grid) {
         int n =grid.size();
         int m=grid[0].size();
+        //yha queue m current index or time store hoga {{i,j},0}
         vector<vector<int>>vis(n,vector<int>(m,0));
         queue<pair<pair<int,int>,int>>q;
         for(int i=0;i<n;i++){
@@ -42,6 +43,7 @@ public:
 
 
     }
+    //check kr rhe h ki kya vis array m kona index 2 nhi hua h or kya vo index 1 h toh return -1 ham usko rotten orange nhi bna paye uss grid ko 
     for(int i=0;i<n;i++){
         for(int  j=0;j<m;j++){
             if(vis[i][j]!=2&&grid[i][j]==1){
