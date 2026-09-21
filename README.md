@@ -85,6 +85,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0542-01-matrix/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -93,6 +94,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0542-01-matrix/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -101,4 +103,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0542-01-matrix/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0542-01-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0542-01-matrix/) | Medium |
 <!---LeetCode Topics End-->
