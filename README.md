@@ -102,4 +102,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
 <!---LeetCode Topics End-->
