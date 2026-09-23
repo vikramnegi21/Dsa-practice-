@@ -89,10 +89,12 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -106,4 +108,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 <!---LeetCode Topics End-->
