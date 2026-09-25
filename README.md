@@ -108,6 +108,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
@@ -120,5 +121,10 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 <!---LeetCode Topics End-->
