@@ -92,11 +92,13 @@
 | ------- | ------- |
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -114,10 +116,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
+| [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
+| [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
