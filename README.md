@@ -112,6 +112,7 @@
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
+| [0709-to-lower-case](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0709-to-lower-case/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
