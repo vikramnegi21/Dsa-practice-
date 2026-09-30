@@ -113,6 +113,7 @@
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
 | [0709-to-lower-case](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0709-to-lower-case/) | Easy |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -132,4 +133,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 <!---LeetCode Topics End-->
