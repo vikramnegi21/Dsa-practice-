@@ -114,6 +114,7 @@
 | [0032-longest-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [0520-detect-capital](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0520-detect-capital/) | Easy |
+| [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0709-to-lower-case](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0709-to-lower-case/) | Easy |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Tree
@@ -140,15 +141,22 @@
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0020-valid-parentheses/) | Easy |
 | [0032-longest-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0020-valid-parentheses/) | Easy |
 | [0032-longest-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0032-longest-valid-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
 <!---LeetCode Topics End-->
