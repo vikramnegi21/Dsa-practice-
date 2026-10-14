@@ -134,6 +134,7 @@
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -163,6 +164,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
