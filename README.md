@@ -88,6 +88,7 @@
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -183,4 +184,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 <!---LeetCode Topics End-->
