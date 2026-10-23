@@ -96,12 +96,14 @@
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0112-path-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0112-path-sum/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -188,4 +190,20 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Kosaraju's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Tarjan's SCC Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
