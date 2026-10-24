@@ -123,6 +123,7 @@
 | [0709-to-lower-case](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0709-to-lower-case/) | Easy |
 | [0856-score-of-parentheses](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0856-score-of-parentheses/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
+| [2409-count-days-spent-together](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2409-count-days-spent-together/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -137,6 +138,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0412-fizz-buzz/) | Easy |
+| [2409-count-days-spent-together](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2409-count-days-spent-together/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## Simulation
