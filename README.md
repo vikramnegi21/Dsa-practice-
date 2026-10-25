@@ -85,6 +85,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -208,4 +209,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 <!---LeetCode Topics End-->
