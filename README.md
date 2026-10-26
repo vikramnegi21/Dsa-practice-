@@ -90,6 +90,7 @@
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Depth-First Search
@@ -99,6 +100,7 @@
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -107,15 +109,18 @@
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
