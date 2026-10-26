@@ -87,6 +87,7 @@
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
@@ -105,6 +106,7 @@
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -113,6 +115,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
