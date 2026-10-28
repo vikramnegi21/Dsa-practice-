@@ -88,6 +88,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
@@ -100,6 +101,7 @@
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -109,17 +111,20 @@
 | [0617-merge-two-binary-trees](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0617-merge-two-binary-trees/) | Easy |
 | [0802-find-eventual-safe-states](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0130-surrounded-regions/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -221,4 +226,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1631-path-with-minimum-effort](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1631-path-with-minimum-effort/) | Medium |
 <!---LeetCode Topics End-->
