@@ -118,4 +118,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 <!---LeetCode Topics End-->
