@@ -124,6 +124,7 @@
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -140,4 +141,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 <!---LeetCode Topics End-->
