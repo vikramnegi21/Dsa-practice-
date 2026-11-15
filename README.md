@@ -106,6 +106,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -123,12 +124,14 @@
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
 | [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -148,5 +151,6 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 <!---LeetCode Topics End-->
