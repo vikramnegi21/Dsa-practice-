@@ -89,6 +89,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -153,4 +154,8 @@
 | ------- | ------- |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
