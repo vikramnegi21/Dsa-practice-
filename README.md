@@ -124,6 +124,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
@@ -132,6 +133,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1524-number-of-sub-arrays-with-odd-sum/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -144,6 +146,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/vikramnegi21/Dsa-practice-/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
