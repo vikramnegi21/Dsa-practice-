@@ -90,6 +90,7 @@
 | ------- | ------- |
 | [0678-valid-parenthesis-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/vikramnegi21/Dsa-practice-/tree/main/2914-minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/vikramnegi21/Dsa-practice-/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
